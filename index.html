@@ -1,62 +1,49 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Crimson+Text&display=swap" rel="stylesheet">
-    <style>
-        .sites{
-          text-align: center;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          position: relative;
-          padding-top: 50px;
-       }
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="font/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Crimson+Text&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+  <title>A Fermy Boutique</title>
+</head>
+<body style="background-color: burlywood;">
 
-        .sites a{
-          color: black;
-          margin: 20px;
-          font-size: 15px;
-          text-decoration: none;
-          font-family: 'Crimson Text', serif;
+  <div class="banner">
+    <img src="img/banner.jpg">
+  </div>
 
-        }
+  <div class="sites" >
 
-        .banner img{
-          width: 1330px;
-          height: 300px;
-          padding-bottom:0px;
-        }
-
-        .imp_head{
-          text-align: center;
-        }
-
-        .company{
-          text-align: right;
-        }
-
-        .company p{
-          font-family: 'Annie Use Your Telescope', cursive;
-        }
-    </style>
-  </head>
-
-  <body style="background-color: burlywood;">
-    <div class="banner">
-      <img src="img/banner.jpg">
+    <button onclick="show()"> BouBlog</button>
+    <div class= "hidden_div" id="hidden_div">
+      <a href="https://www.facebook.com/ianfermy" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#">Browse</a>
     </div>
-    <div class="sites" >
-      <a href="https://www.facebook.com/ianfermy"> BouBlog</a>
-      <a href="https://www.instagram.com/fermybou/?utm_source=ig_embed&amp;utm_campaign=loading" class="item">Photobook</a>
-      <a href="https://www.facebook.com/afermyboutique" class="item"> Museum</a>
+
+    <button onclick="showTwo()">Photobook</button>
+    <div class="hidden_div" id="hidden_divTwo">
+      <a href="https://www.instagram.com/fermybou/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#">Browse</a>
     </div>
-    <div class="imp_head">
-      <img src="img/imp_head.jpg"><br><br>
+
+    <button onclick="showThree()">Museum</button>
+    <div class="hidden_div" id="hidden_divThree">
+      <a href="https://www.facebook.com/afermyboutique" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#">Browse</a>
     </div>
-    <div class="company">
-      <p>A Green Artiste Noir Company</p>
-    </div>
-  </body>
+
+  <div class="imp_head">
+    <img src="img/imp_head.jpg"><br><br>
+  </div>
+  <div class="company">
+    <p>A Green Artiste Noir Company</p>
+  </div>
+
+<script src="js.js"></script>
+</body>
 </html>

@@ -1,0 +1,43 @@
+.sites{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 50px;
+ }
+
+  .sites button{
+    color: yellow;
+    background-color: black;
+    margin: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+    cursor: pointer;
+  }
+
+  
+  .sites .hidden_div{
+    display:none;
+  }
+
+
+  
+  .banner img{
+    width: 1330px;
+    height: 300px;
+    padding-bottom:0px;
+  }
+
+  .imp_head{
+    text-align: center;
+  }
+
+  .company{
+    text-align: right;
+  }
+
+  .company p{
+    font-family: 'Annie Use Your Telescope', cursive;
+  }
