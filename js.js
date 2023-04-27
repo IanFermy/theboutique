@@ -17,3 +17,4 @@ function showThree() {
     console.log(hidden)
     hiddenThree.style.display = "block"
 }
+

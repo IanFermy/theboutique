@@ -22,16 +22,28 @@
     display:none;
   }
 
+  .sites .hidden_div .tooltipx{
+    border: 2px solid black;
+    position: relative;
+    top: -18px;
+    right: -12px;
+    visibility: hidden;
+    z-index: 0;
+  }
 
-  
+  .sites .hidden_div .tooltip_trigger:hover{
+    visibility: visible;
+  }
+
   .banner img{
-    width: 1330px;
+    width: 98vw;
     height: 300px;
     padding-bottom:0px;
   }
 
   .imp_head{
     text-align: center;
+    margin-top: 15px;
   }
 
   .company{
@@ -41,3 +53,122 @@
   .company p{
     font-family: 'Annie Use Your Telescope', cursive;
   }
+
+  /* BouBlogs Page */
+
+  .boublog{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+  }
+
+  .locked{
+    color: green;
+  }
+
+  .header h1{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+  }
+
+  .header h3{
+    text-align:center;
+  }
+
+  .hereweareHeader{
+    text-align: center;
+  }
+
+  .hereWeAreClose, .starvingArtistClose, .mtbClose, .yearsClose, .fortniteClose, .loveLetterClose, .helloClose, .metaverseClose, .fordClose, .millClose,.electricClose, .heatClose, .millQClose, .impClose, .thousandClose, .campClose, .versusClose, .dickClose, .cuckooClose, .crushClose, .secretClose, .macClose, .freeClose, .lightsClose, .assClose, .geikoClose, .manClose, .realityClose, .imaginonClose{
+    margin-left: 50%;
+    background-color: yellow;
+    cursor: pointer;
+    position: relative;
+    bottom: 25px;
+    margin-bottom: 0;
+  }
+
+  #hereWeAre, #starvingArtist, #mtb, #years, #fortnite, #loveLetter, #meditationOptions, #meditationOne, #meditationTwo, #hello, #metaverse, #ford, #mill, #electric, #heat, #millQ, #imp, #thousand, #camp, #versus, #dick, #cuckoo, #crush, #secret, #mac, #free, #lights, #ass, #geiko, #man, #reality, #imaginon, #areaCodeNineEleven, #one, #two, #areaCodeNineEleven, #three, #four{
+    display: none;
+  }
+
+.starvingArtistHeader, .mtbHeader, .yearsHeader, .fortniteHeader, .loveLetterHeader, .helloHeader, .metaverseHeader, .fordHeader, .millHeader, .electricHeader,.heatHeader, .millQHeader, .impHeader, .thousandHeader, .campHeader, .versusHeader, .dickHeader, .cuckooHeader, .crushHeader, .secretHeader, .macHeader, .freeHeader, .lightsHeader, .assHeader, .geikoHeader, .manHeader, .realityHeader, .imaginonHeader, .oneHeader, .twoHeader, .threeHeader, .fourHeader{
+  text-align: center;
+}
+
+.finalText {
+  text-align: center;
+}
+
+.mtbText{
+  margin-top: 5px;
+}
+
+.closeMeditationOption, .meditationOneClose, .meditationTwoClose{
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.meditateBtn{
+  background-color: rgb(62, 62, 158);
+}
+
+.meditations, #areaCodeNineEleven{
+  text-align:center;
+}
+
+.manSaleOne{
+  margin-top: 15px;
+  color:burlywood;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.manSaleTwo{
+  text-align:center;
+  margin-bottom: 15px;
+  color: darkgreen;
+}
+
+.manSaleThree{
+  margin-top: 10px;
+  text-align:center;
+  color: burlywood;
+}
+
+.tooltip:hover{
+  color: black;
+}
+
+.tooltipTwo:hover{
+  font-size: 20px;
+}
+
+.nineEleven{
+  background-color: rgb(62, 62, 158);
+  cursor: pointer;
+}
+
+.oneClose, .twoClose, .threeClose, .fourClose{
+  position: relative;
+  bottom: 20px;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.areaCodeNineElevenClose{
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.pbiPhotos div img{
+  height:60vh;
+  width: 50vw;
+}
+
+.pbiPhotos div{
+  text-align: center;
+}

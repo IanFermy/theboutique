@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .options{
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        #yinYangContent{
+            margin-top: 100px;
+        }
+
+        .vidButton{
+            background-color: purple;
+            cursor: pointer;
+        }
+
+        .audioButton{
+            background-color: orangered;
+            cursor: pointer;
+        }
+
+        #videoChoices{
+            display:none;
+        }
+
+        #yinYangContent{
+            display:none;
+        }
+
+        .yin{
+            border: none;
+            background: none;
+            color: purple;
+            margin-top: 20px;
+            text-align:center;
+            cursor: pointer;
+        }
+
+        #yang{
+            text-align: center;
+        }
+
+        #drakeH{
+            display: hidden;
+        }
+
+        #drakePlaceHolder{
+            margin-top: 20px;
+            display: none;
+        }
+
+        #yinYangPlaceHolder{
+            width: 300px;
+            height: 200px;
+        }
+
+        .drakeHide{
+            display:none;
+        }
+
+        .yinYangHide{
+            display:none;
+        }
+
+        .drakeNoGo{
+            width: 300px;
+            height: 200px;
+        }
+
+        .videoContent{
+            margin-left: 30%;
+        }
+
+        .notReadyText{
+            position: relative;
+            bottom: 130px;
+            color: red;
+        }
+
+        i{
+            position: relative;
+            right: 40%;
+        }
+
+        .back{
+            position: relative;
+            top: 150px;
+        }
+
+        .audioContentButton{
+            display:flex;
+            align-content: center;
+            justify-content: center;
+            padding: 10px;
+            margin: 15px;
+            color: red;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .moveOne{
+            transform: translateX(32px);
+        }
+
+        .moveTwo{
+            transform: translateX(40px);
+        }
+
+        .moveThree{
+            transform: translateX(117px);
+        }
+
+        .audioContent i{
+            color: green;
+            font-size: 20px;
+            
+        }
+        .audioContent{
+            position: relative;
+            top: 50px;
+            left: 45%;
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="font/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Label PourBoy</title>
+</head>
+<body>
+    <div class="options">
+        <i class="fa-solid fa-rotate-right"></i>
+        <button class="vidButton" onclick="revealVids()">Vids</button>
+        <button class="audioButton" onclick="revealAudio()">Audio</button>
+    </div>
+
+    <div id="choices">
+        <div id="videoChoices">
+            <div id="yang">
+            <button class="yin" onclick="revealYinYang()">Yin Yang Twins Project</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="videoContent" class="videoContent">
+            <div id="yinYangDiv">
+                <div id="yinYangContent">
+                    <img id="yinYangPlaceHolder" src="img/nogo.jpg">
+                    <p class="notReadyText">This content is not ready</p>
+                    <button style="background-color: yellow;" onclick="revealDrakeH()">Honorable Mention-Drake HYFR</button>
+                </div>
+
+                <div id="drakePlaceHolder" style="display:none; border:5px solid yellow; width: fit-content">
+                    <img class="drakeNoGo" src="img/nogo.jpg">
+                    <p class="notReadyText">This content is not ready</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="audioContent" class="audioContent">
+            <button onclick="playManLib()"class="audioContentButton">manLib<i  class="fa-solid fa-volume-high moveOne"><audio id="manLib" src="audio/manLib.mp3"></audio></i></button>
+            <button onclick="playBaby()"class="audioContentButton">babyBaby<i class="fa-solid fa-volume-high moveTwo"><audio id="baby" src="audio/babybaby.wav"></audio></i></button>
+            <button onclick="playSorry()"class="audioContentButton">SorryDrakeForUsingYourFlow...Again<i class="fa-solid fa-volume-high moveThree"><audio id="sorry" src="audio/SorryDrakeForUsingYourFlowAgain.wav"></audio></i></button>
+            <p style="color: red;">The content on this page is not ready.</p>
+        </div>
+    </div>
+
+<span class="back">
+    <a href="floorthree.html">back</a>
+</span>
+<script src="label.js"></script>
+</body>
+</html>

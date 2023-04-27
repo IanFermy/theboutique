@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .doorClosed{
+            text-align: center;
+            margin-top: 25px;
+        }
+        button{
+            cursor: pointer;
+            border:none;
+            background: none;
+        }
+
+        .floorOptions{
+           
+            position: relative;
+            bottom: 400px;
+            transform: translateX(50px);
+            
+        }
+
+        .floorOptions a{
+            margin-top: 10px;
+            text-decoration: none;
+            width:70px;
+            color: black;
+        }
+
+        .hidden{
+            display: none;
+        }
+        
+        .backButton{
+            position: relative;
+            top: 10px;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFB Museum</title>
+</head>
+<body>
+
+    <div class="doorClosed">
+        <button onclick="openDoor()"><img id="doorClosed" class="doorClosedImg" src="img/doorclosed.png"></button>
+    
+        <div id="reveal" class="floorOptions hidden">
+            <a href="floorone.html">Floor 1</a><br><br>
+            <a href="floortwo.html">Floor 2</a><br><br>
+            <a href="floorthree.html">Floor 3</a><br><br>
+            <a href="floorfour.html">Floor 4</a><br><br>
+            <a href="floorfive.html">Floor 5</a>
+        </div>
+
+    </div>
+<a class="backButton" href="index.html">Back</a>
+</body>
+<script src="museum.js"></script>
+</html>

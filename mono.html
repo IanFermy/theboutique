@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            overflow:hidden;
+        }
+
+       .introTitle, .materialTitle{
+            text-align: center;
+        }
+
+        .introVideo{
+            display: flex;
+            justify-content:space-around;
+        }
+        
+        button{
+            list-style-type: none;
+            background: none;
+            border: none;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        button:hover{
+            color: green;
+        }
+
+        .videoLinks{
+            position: absolute;
+            left: -30px;
+            bottom: 50px;
+            z-index:1;
+        }
+
+        .hide{
+            display: none;
+        }
+
+        .monoVid{
+            transform: translateX(25%);
+            
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monologues</title>
+</head>
+<body>
+    <div class="intro">
+
+        <h2 class="introTitle">Intro's</h2>
+
+        <div class="introVideo">
+            <iframe class="introOne" width="330" height="210" src="https://www.youtube.com/embed/9gSk-sEIL-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <iframe class="introTwo" width="330" height="210" src="https://www.youtube.com/embed/NFBWNrjSO6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <h3 class="materialTitle">Material</h3>
+
+    <div class="monoVid">
+        
+        <iframe class="reel hide" id="reel" width="560" height="315" src="https://www.youtube.com/embed/ixzoOS0B-Tk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <iframe class="thief hide" id="thief" width="560" height="315" src="https://www.youtube.com/embed/twumQUDnb_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <iframe class="chuck hide" id="chuck" width="560" height="315" src="https://www.youtube.com/embed/H1T8LojFq6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <iframe class="beast hide" id="beast" width="560" height="315" src="https://www.youtube.com/embed/zcyVzYtOSXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <iframe class="gray hide" id="gray" width="560" height="315" src="https://www.youtube.com/embed/J2ateP13AnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <iframe class="crowley hide" id="crowley" width="560" height="315" src="https://www.youtube.com/embed/SuF3JKIUTp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <iframe class="intimate hide" id="intimate" width="560" height="315" src="https://www.youtube.com/embed/KWS2RZlyKLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <iframe class="philly hide" id="philly" width="560" height="315" src="https://www.youtube.com/embed/CREAuUyCTxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <iframe class="married hide" id="married" width="560" height="315" src="https://www.youtube.com/embed/utJGOpZjx_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="videoLinks">
+        <ul>
+            <button onclick="playReel()"><li>*Reel*</li></button>
+            <button onclick="playThief()"><li>Thief</li></button>
+            <button onclick="playChuck()"><li>Killing Chuck</li></button>
+            <button onclick="playBeast()"><li>Beast of no Nation</li></button>
+            <button onclick="playGray()"><li>The Gray</li></button>
+            <button onclick="playCrowley()"><li>Crowley</li></button>
+            <button onclick="playIntimate()"><li>Intimate Apparel</li></button>
+            <button onclick="playPhilly()"><li>Philadelphia</li></button>
+            <button onclick="playMarried()"><li>Getting Married</li></button>
+        </ul>
+    </div>
+
+<script src="mono.js"></script>
+</body>
+</html>
