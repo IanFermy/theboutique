@@ -36,9 +36,13 @@
         .seaText{
             position: relative;
             top: 210px;
-            left: 200px;
+            left: 80px;
             font-size: 28px;
             color: rgb(129, 38, 22);
+        }
+
+        .seaImage{
+            width: 75%;
         }
        
         .ojImage{
@@ -78,6 +82,7 @@
        .springText{
             position: relative;
             top: 380px;
+            color: gray;
        }
         
        .meanText{
@@ -121,6 +126,11 @@
         font-size:19px;
        }
 
+       #lightOneImage{
+        width: 75%;
+
+       }
+
        .light:hover{
         color: yellow;
        }
@@ -140,13 +150,23 @@
 
        .lifeText{
         position: relative;
-        top: 185px;
+        top: 125px;
         font-size: 20px;
        }
 
+       .lifeImage{
+        width: 70%;
+       }
+
+
        .pokeText{
         position: relative;
-        top: 250px;
+        top: 150px;
+        left: 20px;
+       }
+
+       .pokeImage{
+        width: 70%;
        }
 
        .math{
@@ -273,7 +293,7 @@
 
         <div class="sea hide" id="sea">
             <div class="seaText" style="font-family: 'Pacifico', cursive;">“The sea leaves no tracks”</div>
-            <img src="img/noInspirationPosts/sea.jpg">
+            <img class="seaImage" src="img/noInspirationPosts/sea.jpg">
             <button class="button" onclick="revealOj()"></button>
         </div>
         
@@ -333,13 +353,13 @@
         
         <div class="life hide" id="life">
             <div class="lifeText" style="font-family: 'Chakra Petch', sans-serif; ">"Life is the hardest thing in life"</div>
-            <img src="img/noInspirationPosts/life.jpg">
+            <img class="lifeImage" src="img/noInspirationPosts/life.jpg">
             <button class="button" onclick="revealPokeCenter()"></button>
         </div>
         
         <div class="pokeCenter hide" id="pokeCenter">
             <div class="pokeText" style="font-family: 'Gloria Hallelujah', cursive;">Poke Center: "We hope to see you again!"</div>
-            <img src="img/noInspirationPosts/pokeCenter.jpg">
+            <img class="pokeImage" src="img/noInspirationPosts/pokeCenter.jpg">
             <button class="button" onclick="revealMath()"></button>
         </div>
         
