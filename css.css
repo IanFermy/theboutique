@@ -82,7 +82,7 @@
     text-align: center;
   }
 
-  .hereWeAreClose, .starvingArtistClose, .mtbClose, .yearsClose, .fortniteClose, .loveLetterClose, .helloClose, .metaverseClose, .fordClose, .millClose,.electricClose, .heatClose, .millQClose, .impClose, .thousandClose, .campClose, .versusClose, .dickClose, .cuckooClose, .crushClose, .secretClose, .macClose, .freeClose, .lightsClose, .assClose, .geikoClose, .manClose, .realityClose, .imaginonClose{
+  .hereWeAreClose, .starvingArtistClose, .mtbClose, .yearsClose, .fortniteClose, .loveLetterClose, .helloClose, .metaverseClose, .fordClose, .millClose,.electricClose, .heatClose, .millQClose, .impClose, .thousandClose, .campClose, .versusClose, .dickClose, .cuckooClose, .crushClose, .secretClose, .macClose, .freeClose, .lightsClose, .assClose, .geikoClose, .manClose, .realityClose, .imaginonClose, .einsteinClose{
     margin-left: 50%;
     background-color: yellow;
     cursor: pointer;
@@ -91,11 +91,11 @@
     margin-bottom: 0;
   }
 
-  #hereWeAre, #starvingArtist, #mtb, #years, #fortnite, #loveLetter, #meditationOptions, #meditationOne, #meditationTwo, #hello, #metaverse, #ford, #mill, #electric, #heat, #millQ, #imp, #thousand, #camp, #versus, #dick, #cuckoo, #crush, #secret, #mac, #free, #lights, #ass, #geiko, #man, #reality, #imaginon, #areaCodeNineEleven, #one, #two, #areaCodeNineEleven, #three, #four{
+  #hereWeAre, #starvingArtist, #mtb, #years, #fortnite, #loveLetter, #meditationOptions, #meditationOne, #meditationTwo, #hello, #metaverse, #ford, #mill, #electric, #heat, #millQ, #imp, #thousand, #camp, #versus, #dick, #cuckoo, #crush, #secret, #mac, #free, #lights, #ass, #geiko, #man, #reality, #imaginon, #areaCodeNineEleven, #one, #two, #areaCodeNineEleven, #three, #four, #einstein{
     display: none;
   }
 
-.starvingArtistHeader, .mtbHeader, .yearsHeader, .fortniteHeader, .loveLetterHeader, .helloHeader, .metaverseHeader, .fordHeader, .millHeader, .electricHeader,.heatHeader, .millQHeader, .impHeader, .thousandHeader, .campHeader, .versusHeader, .dickHeader, .cuckooHeader, .crushHeader, .secretHeader, .macHeader, .freeHeader, .lightsHeader, .assHeader, .geikoHeader, .manHeader, .realityHeader, .imaginonHeader, .oneHeader, .twoHeader, .threeHeader, .fourHeader{
+.starvingArtistHeader, .mtbHeader, .yearsHeader, .fortniteHeader, .loveLetterHeader, .helloHeader, .metaverseHeader, .fordHeader, .millHeader, .electricHeader,.heatHeader, .millQHeader, .impHeader, .thousandHeader, .campHeader, .versusHeader, .dickHeader, .cuckooHeader, .crushHeader, .secretHeader, .macHeader, .freeHeader, .lightsHeader, .assHeader, .geikoHeader, .manHeader, .realityHeader, .imaginonHeader, .oneHeader, .twoHeader, .threeHeader, .fourHeader, .einsteinHeader{
   text-align: center;
 }
 

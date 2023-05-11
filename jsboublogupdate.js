@@ -37,6 +37,7 @@ var oneBlog = document.getElementById('one')
 var twoBlog = document.getElementById('two')
 var threeBlog = document.getElementById('three')
 var fourBlog = document.getElementById('four')
+var einsteinBlog = document.getElementById('einstein')
 
 function revealHereWeAre() {
    hereWeAreBlog.style.display = "block"
@@ -333,5 +334,12 @@ function fourClose() {
 
 function closeArea() {
     nineElevenBlock.style.display = "none"
+}
 
+function revealEinstein() {
+    einsteinBlog.style.display="block"
+}
+
+function einsteinClose() {
+    einsteinBlog.style.display="none"
 }
