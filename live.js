@@ -2,6 +2,15 @@ var nick = document.getElementById('nick')
 var ownNothing = document.getElementById('ownNothing')
 var woke = document.getElementById('woke')
 var money = document.getElementById("money")
+var work = document.getElementById("noWork")
+
+function revealWork() {
+    closeMoney()
+    closeNick()
+    closeOwnNothing()
+    closeWoke()
+    work.style.display="block"
+}
 
 function revealNick() {
     closeOwnNothing()

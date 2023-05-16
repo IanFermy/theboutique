@@ -38,6 +38,15 @@ var twoBlog = document.getElementById('two')
 var threeBlog = document.getElementById('three')
 var fourBlog = document.getElementById('four')
 var einsteinBlog = document.getElementById('einstein')
+var nomadBlog = document.getElementById('nomad')
+
+function revealNomad() {
+    nomadBlog.style.display="block"
+}
+
+function nomadClose() {
+    nomadBlog.style.display="none"
+}
 
 function revealHereWeAre() {
    hereWeAreBlog.style.display = "block"
