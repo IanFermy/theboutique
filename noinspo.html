@@ -247,6 +247,80 @@
         font-size: 30px;
         color: gold;
        }
+
+       .cellImage, .wingsuitImage, .suitImage, .riverImage, .diceImage, .gameImage, .holeImage, .curbImage {
+        height: 250px;
+        width: 350px;
+       }
+
+       .suitImage{
+        border: 2px solid black;
+        height: 300px;
+        width: 400px;
+       }
+
+       .riverImage{
+        width: 420px;
+       }
+
+       .cellText{
+        font-family: 'Playfair', serif;
+        position: relative;
+        color: white;
+        top: 150px;
+        font-size: 37px;
+       }
+
+       .cellText:hover{
+        color: black;
+        background-color: white;
+        font-size: 50px;
+       }
+
+        .wingsuitText{
+            font-family: 'Pangolin', cursive;
+            position: relative;
+            top: 150px;
+            left: 30px;
+        }
+
+    .suitText{
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        top: 50px;
+        right: 43px;
+        color: rgb(96, 96, 238);
+    }
+
+.riverText{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+.riverDistance{
+    position: relative;
+    top: 190px;
+    right: 125px;
+}
+
+.diceText{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.gameText{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.holeText{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.curbText{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
     </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z81E4WC0MS"></script>
     <script>
@@ -260,12 +334,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Chakra+Petch:wght@300&family=Cormorant+Garamond:wght@300&family=Gloria+Hallelujah&family=Irish+Grover&family=Jost:wght@300&family=Khand:wght@300&family=Mukta&family=Open+Sans&family=Pacifico&family=Pathway+Extreme&family=Comic+Neue:wght@700&family=Poppins:wght@200&family=Roboto+Condensed:ital@1&family=Source+Sans+Pro:ital,wght@1,200&family=Sunflower:wght@300&family=Thasadith:ital,wght@1,700&family=Yanone+Kaffeesatz&family=Carlito&family=Ysabeau:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Montserrat&family=Pangolin&family=Playfair:ital,wght@1,300&family=Quicksand:wght@400;600&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Chakra+Petch:wght@300&family=Cormorant+Garamond:wght@300&family=Gloria+Hallelujah&family=Irish+Grover&family=Jost:wght@300&family=Khand:wght@300&family=Mukta&family=Open+Sans&family=Pacifico&family=Pathway+Extreme&family=Comic+Neue:wght@700&family=Poppins:wght@200&family=Roboto+Condensed:ital@1&family=Source+Sans+Pro:ital,wght@1,200&family=Sunflower:wght@300&family=Thasadith:ital,wght@1,700&family=Yanone+Kaffeesatz&family=Carlito&family=Ysabeau:ital,wght@1,100&display=swap" rel="stylesheet">
+    
     <title>No Inspiration Quotes</title>
 </head>
 <body>
-    <div>
+    <div> 
 
         <div class="header">
     <h3 style="font-family: 'Comic Neue', cursive;">No-Inspiration Quote</h3>
@@ -273,6 +351,54 @@
 
     <div class="quotes">
 
+        <div class="" id="cell">
+            <div class="cellText">"What's your excuse?"</div>
+            <img class="cellImage" src="img/noInspirationPosts/cell.jpg">
+            <button class="button"></button>
+        </div>
+
+        <div class="" id="wingsuit">
+            <div class="wingsuitText">"Failure is only a fear"</div>
+            <img class="wingsuitImage" src="img/noInspirationPosts/wingsuit.jpg">
+            <button class="button"></button>
+        </div>
+
+        <div class="" id="suit">
+            <div class="suitText">"Boys never wear suits"</div>
+            <img class="suitImage" src="img/noInspirationPosts/suit.jpg">
+            <button class="button"></button>
+        </div>
+
+        <div class="" id="river">
+            <div class="riverText">"It's a mighty big jump between easy <span class="riverDistance">and very easy"</span></div>
+            <img class="riverImage" src="img/noInspirationPosts/river.jpg">
+            <button class="button"></button>
+        </div>
+
+        <div class="" id="dice">
+            <div class="diceText">"What are the odds"</div>
+            <img class="diceImage" src="img/noInspirationPosts/dice.jpg">
+            <button class="button"></button>
+        </div>
+
+        <div class="" id="game">
+            <div class="gameText">"Play the game"</div>
+            <img class="gameImage" src="img/noInspirationPosts/game.jpg">
+            <button class="button"></button>
+        </div>
+
+        <div class="" id="hole">
+            <div class="holeText">"Stray away from blackholes"</div>
+            <img class="holeImage" src="img/noInspirationPosts/hole.jpg">
+            <button class="button"></button>
+        </div>
+
+        <div class="" id="curb">
+            <div class="curbText">"Trouble is around the corner"</div>
+            <img class="curbImage" src="img/noInspirationPosts/curb.jpg">
+            <button class="button"></button>
+        </div>
+        
         <div class="sex" id="sex" >
             <div class="outerDiv">
             <div class=test>
