@@ -306,18 +306,29 @@
 
 .diceText{
     font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    top: 230px;
+    color: rgb(233, 10, 10);
 }
 
 .gameText{
     font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    top: 150px;
+    font-size: 25px;
 }
 
 .holeText{
     font-family: 'Quicksand', sans-serif;
+    position: relative;
+    top: 150px;
+    color: yellow;
 }
 
 .curbText{
     font-family: 'Quicksand', sans-serif;
+    position: relative;
+    top: 150px;
 }
 
 
@@ -351,54 +362,6 @@
 
     <div class="quotes">
 
-        <div class="" id="cell">
-            <div class="cellText">"What's your excuse?"</div>
-            <img class="cellImage" src="img/noInspirationPosts/cell.jpg">
-            <button class="button"></button>
-        </div>
-
-        <div class="" id="wingsuit">
-            <div class="wingsuitText">"Failure is only a fear"</div>
-            <img class="wingsuitImage" src="img/noInspirationPosts/wingsuit.jpg">
-            <button class="button"></button>
-        </div>
-
-        <div class="" id="suit">
-            <div class="suitText">"Boys never wear suits"</div>
-            <img class="suitImage" src="img/noInspirationPosts/suit.jpg">
-            <button class="button"></button>
-        </div>
-
-        <div class="" id="river">
-            <div class="riverText">"It's a mighty big jump between easy <span class="riverDistance">and very easy"</span></div>
-            <img class="riverImage" src="img/noInspirationPosts/river.jpg">
-            <button class="button"></button>
-        </div>
-
-        <div class="" id="dice">
-            <div class="diceText">"What are the odds"</div>
-            <img class="diceImage" src="img/noInspirationPosts/dice.jpg">
-            <button class="button"></button>
-        </div>
-
-        <div class="" id="game">
-            <div class="gameText">"Play the game"</div>
-            <img class="gameImage" src="img/noInspirationPosts/game.jpg">
-            <button class="button"></button>
-        </div>
-
-        <div class="" id="hole">
-            <div class="holeText">"Stray away from blackholes"</div>
-            <img class="holeImage" src="img/noInspirationPosts/hole.jpg">
-            <button class="button"></button>
-        </div>
-
-        <div class="" id="curb">
-            <div class="curbText">"Trouble is around the corner"</div>
-            <img class="curbImage" src="img/noInspirationPosts/curb.jpg">
-            <button class="button"></button>
-        </div>
-        
         <div class="sex" id="sex" >
             <div class="outerDiv">
             <div class=test>
@@ -522,6 +485,54 @@
         <div class="oneDay hide" id="oneDay">
             <div class="oneDayText" style="font-family: 'Thasadith', sans-serif;">"Maybe one day"</div>
             <img class="oneDayImage" src="img/noInspirationPosts/oneDay.jpg">
+            <button class="button" onclick="revealCell()"></button>
+        </div>
+
+        <div class="hide" id="cell">
+            <div class="cellText">"What's your excuse?"</div>
+            <img class="cellImage" src="img/noInspirationPosts/cell.jpg">
+            <button class="button" onclick="revealWingsuit()"></button>
+        </div>
+
+        <div class="hide" id="wingsuit">
+            <div class="wingsuitText">"Failure is only a fear"</div>
+            <img class="wingsuitImage" src="img/noInspirationPosts/wingsuit.jpg">
+            <button class="button" onclick="revealSuit()"></button>
+        </div>
+
+        <div class="hide" id="suit">
+            <div class="suitText">"Boys never wear suits"</div>
+            <img class="suitImage" src="img/noInspirationPosts/suit.jpg">
+            <button class="button" onclick="revealRiver()"></button>
+        </div>
+
+        <div class="hide" id="river">
+            <div class="riverText">"It's a mighty big jump between easy <span class="riverDistance">and very easy"</span></div>
+            <img class="riverImage" src="img/noInspirationPosts/river.jpg">
+            <button class="button" onclick="revealDice()"></button>
+        </div>
+
+        <div class="hide" id="dice">
+            <div class="diceText">"What are the odds"</div>
+            <img class="diceImage" src="img/noInspirationPosts/dice.jpg">
+            <button class="button" onclick="revealGame()"></button>
+        </div>
+
+        <div class="hide" id="game">
+            <div class="gameText">"Play the game"</div>
+            <img class="gameImage" src="img/noInspirationPosts/game.jpg">
+            <button class="button"onclick="revealHole()" ></button>
+        </div>
+
+        <div class="hide" id="hole">
+            <div class="holeText">"Stray away from blackholes"</div>
+            <img class="holeImage" src="img/noInspirationPosts/hole.jpg">
+            <button class="button" onclick="revealCurb()"></button>
+        </div>
+
+        <div class="hide" id="curb">
+            <div class="curbText">"Trouble is around the corner"</div>
+            <img class="curbImage" src="img/noInspirationPosts/curb.jpg">
         </div>
 
     </div>

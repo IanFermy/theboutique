@@ -19,7 +19,16 @@ var soon = document.getElementById('soon')
 var suck = document.getElementById('suck')
 var tomorrow = document.getElementById('tomorrow')
 var dream = document.getElementById('dream')
+var  cell = document.getElementById('cell')
+var wingsuit = document.getElementById('wingsuit')
+var suit = document.getElementById('suit')
+var river = document.getElementById('river')
+var dice = document.getElementById('dice')
+var game = document.getElementById('game')
+var hole = document.getElementById('hole')
+var curb = document.getElementById('curb')
 var oneDay = document.getElementById('oneDay')
+
 
 function showSea() {
     removeSex()
@@ -285,6 +294,258 @@ function revealoneDay() {
     removeTomorrow()
     removeDream()
     oneDay.style.display="block"
+}
+
+function revealCell() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    cell.style.display="block"
+}
+
+function revealWingsuit() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    wingsuit.style.display="block"
+}
+
+function revealSuit() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    suit.style.display="block"
+}
+
+function revealRiver() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    river.style.display="block"
+}
+
+function revealDice() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    removeRiver()
+    dice.style.display="block"
+}
+
+function revealHole() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    removeRiver()
+    removeGame()
+    hole.style.display="block"
+}
+
+function revealGame(){
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    removeRiver()
+    removeHole()
+    removeDice()
+    game.style.display="block"
+}
+
+function revealCurb() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    removeRiver()
+    removeDice()
+    removeGame()
+    removeHole()
+    curb.style.display="block"
+}
+
+function removeHole() {
+    hole.style.display="none"
+}
+ 
+function removeGame() {
+    game.style.display="none"
+}
+
+function removeDice() {
+    dice.style.display="none"
+}
+
+function removeRiver() {
+    river.style.display="none"
+}
+
+function removeSuit() {
+    suit.style.display="none"
+}
+
+function removeWingsuit() {
+    wingsuit.style.display='none'
+}
+
+function removeCell() {
+    cell.style.display = 'none'
+}
+
+function removeOneDay() {
+    oneDay.style.display="none"
 }
 
 function revealLightTwo() {
