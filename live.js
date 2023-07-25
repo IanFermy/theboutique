@@ -4,6 +4,17 @@ var woke = document.getElementById('woke')
 var money = document.getElementById("money")
 var work = document.getElementById("noWork")
 var republicans = document.getElementById("republicans")
+var republicansTwo = document.getElementById('republicansTwo')
+
+function revealRepublicansTwo(){
+    closeMoney();
+    closeNick();
+    closeOwnNothing();
+    closeWoke();
+    closeRepublicans();
+    republicansTwo.style.display = "block"
+
+}
 
 function revealRepublicans() {
     closeMoney()
@@ -11,6 +22,7 @@ function revealRepublicans() {
     closeOwnNothing()
     closeWoke()
     republicans.style.display="block"
+    closeRepublicansTwo()
 }
 
 function revealWork() {
@@ -20,6 +32,7 @@ function revealWork() {
     closeWoke()
     closeRepublicans()
     work.style.display="block"
+    closeRepublicansTwo();
 }
 
 function revealNick() {
@@ -29,6 +42,7 @@ function revealNick() {
     closeWork()
     closeRepublicans()
     nick.style.display= "block"
+    closeRepublicansTwo()
 }
 
 function revealOwnNothing() {
@@ -38,6 +52,7 @@ function revealOwnNothing() {
     closeWork()
     closeRepublicans()
     ownNothing.style.display="block"
+    closeRepublicansTwo()
 }
 
 function revealWoke() {
@@ -47,6 +62,7 @@ function revealWoke() {
     closeWork()
     closeRepublicans()
     woke.style.display = "block"
+    closeRepublicansTwo()
 }
 
 function revealMoney() {
@@ -56,6 +72,7 @@ function revealMoney() {
     closeWoke()
     closeWork()
     closeRepublicans()
+    closeRepublicansTwo()
 }
 
 function closeNick() {
@@ -80,6 +97,10 @@ function closeRepublicans() {
 
 function closeWork() {
     work.style.display = "none"
+}
+
+function closeRepublicansTwo(){
+    republicansTwo.style.display = "none"
 }
 
 
