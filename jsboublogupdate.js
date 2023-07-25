@@ -40,6 +40,15 @@ var fourBlog = document.getElementById('four')
 var einsteinBlog = document.getElementById('einstein')
 var nomadBlog = document.getElementById('nomad')
 var batmanBlog = document.getElementById('batman')
+var unabomberBlog = document.getElementById('unabomber');
+
+function revealUnabomber() {
+    unabomberBlog.style.display = "block"
+}
+
+function unabomberClose() {
+    unabomberBlog.style.display = "none"
+}
 
 function revealBatman(){
     batmanBlog.style.display= 'block'
