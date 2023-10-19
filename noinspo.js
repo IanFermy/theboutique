@@ -28,7 +28,13 @@ var game = document.getElementById('game')
 var hole = document.getElementById('hole')
 var curb = document.getElementById('curb')
 var oneDay = document.getElementById('oneDay')
-
+var clown = document.getElementById('clown');
+var coin = document.getElementById('coin');
+var dodgeball = document.getElementById('dodgeball');
+var fork = document.getElementById('fork');
+var knife = document.getElementById('knife');
+var bed = document.getElementById("bed");
+var kool = document.getElementById('kool')
 
 function showSea() {
     removeSex()
@@ -453,7 +459,7 @@ function revealHole() {
     removeRiver()
     removeGame()
     hole.style.display="block"
-}
+} 
 
 function revealGame(){
     removeSex()
@@ -514,6 +520,283 @@ function revealCurb() {
     removeGame()
     removeHole()
     curb.style.display="block"
+}
+
+function revealClown(){
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    removeRiver()
+    removeDice()
+    removeGame()
+    removeHole();
+    removeCurb();
+    clown.style.display='block';
+}
+
+function revealCoin() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    removeRiver()
+    removeDice()
+    removeGame()
+    removeHole();
+    removeCurb();
+    removeClown();
+    coin.style.display = "block";
+}
+
+function revealDodgeball(){
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    removeRiver()
+    removeDice()
+    removeGame()
+    removeHole();
+    removeCurb();
+    removeClown();
+    removeCoin();
+    dodgeball.style.display = "block";
+}
+
+function revealFork() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    removeRiver()
+    removeDice()
+    removeGame()
+    removeHole();
+    removeCurb();
+    removeClown();
+    removeCoin();
+    removeDodgeball();
+    fork.style.display = "block";
+}
+
+function revealKnife() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    removeRiver()
+    removeDice()
+    removeGame()
+    removeHole();
+    removeCurb();
+    removeClown();
+    removeCoin();
+    removeDodgeball();
+    removeFork();
+    knife.style.display = "block";
+}
+
+function revealBed() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    removeRiver()
+    removeDice()
+    removeGame()
+    removeHole();
+    removeCurb();
+    removeClown();
+    removeCoin();
+    removeDodgeball();
+    removeFork();
+    removeKnife();
+    bed.style.display = "block";
+}
+
+function revealKool() {
+    removeSex()
+    removeSea()
+    removeOj()
+    removeFuck()
+    removeSpring()
+    removeMean()
+    removeMark()
+    removeFert()
+    removeLaugh()
+    removeLight()
+    removeBeard()
+    removeLife()
+    removePokeCenter()
+    removeMath()
+    removeSugar()
+    removeSoon()
+    removeSuck()
+    removeTomorrow()
+    removeDream()
+    removeOneDay()
+    removeCell()
+    removeWingsuit()
+    removeSuit()
+    removeRiver()
+    removeDice()
+    removeGame()
+    removeHole();
+    removeCurb();
+    removeClown();
+    removeCoin();
+    removeDodgeball();
+    removeFork();
+    removeKnife();
+    removeBed();
+    kool.style.display = "block";
+}
+
+function removeKool() {
+    sugar.style.display = "none"
+;}
+
+function removeBed() {
+    bed.style.display = "none";
+}
+
+function removeKnife() {
+    knife.style.display = "none";
+}
+
+function removeFork() {
+    fork.style.display ="none";
+}
+
+function removeDodgeball(){
+    dodgeball.style.display = "none"
+}
+
+function removeCoin(){
+    coin.style.display="none"
+}
+
+function removeClown() {
+    clown.style.display = "none"
+}
+
+function removeCurb() {
+    curb.style.display="none"
 }
 
 function removeHole() {

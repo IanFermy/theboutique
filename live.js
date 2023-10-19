@@ -1,10 +1,34 @@
-var nick = document.getElementById('nick')
-var ownNothing = document.getElementById('ownNothing')
-var woke = document.getElementById('woke')
-var money = document.getElementById("money")
-var work = document.getElementById("noWork")
-var republicans = document.getElementById("republicans")
-var republicansTwo = document.getElementById('republicansTwo')
+var nick = document.getElementById('nick');
+var ownNothing = document.getElementById('ownNothing');
+var woke = document.getElementById('woke');
+var money = document.getElementById("money");
+var work = document.getElementById("noWork");
+var republicans = document.getElementById("republicans");
+var republicansTwo = document.getElementById('republicansTwo');
+var changingRoles = document.getElementById('changingRoles');
+var social = document.getElementById('social');
+
+function revealSocial(){
+    closeMoney();
+    closeNick();
+    closeOwnNothing();
+    closeWoke();
+    closeRepublicans();
+    closeRepublicansTwo();
+    closeChangingRoles();
+    social.style.display = "block";
+}
+
+function revealChangingRoles(){
+    closeMoney();
+    closeNick();
+    closeOwnNothing();
+    closeWoke();
+    closeRepublicans();
+    closeRepublicansTwo();
+    changingRoles.style.display = "block";
+    closeSocial();
+}
 
 function revealRepublicansTwo(){
     closeMoney();
@@ -12,8 +36,9 @@ function revealRepublicansTwo(){
     closeOwnNothing();
     closeWoke();
     closeRepublicans();
-    republicansTwo.style.display = "block"
-
+    closeChangingRoles();
+    republicansTwo.style.display = "block";
+    closeSocial();
 }
 
 function revealRepublicans() {
@@ -23,16 +48,20 @@ function revealRepublicans() {
     closeWoke()
     republicans.style.display="block"
     closeRepublicansTwo()
+    closeChangingRoles();
+    closeSocial();
 }
 
 function revealWork() {
-    closeMoney()
-    closeNick()
-    closeOwnNothing()
-    closeWoke()
-    closeRepublicans()
+    closeMoney();
+    closeNick();
+    closeOwnNothing();
+    closeWoke();
+    closeRepublicans();
     work.style.display="block"
     closeRepublicansTwo();
+    closeChangingRoles();
+    closeSocial();
 }
 
 function revealNick() {
@@ -42,7 +71,9 @@ function revealNick() {
     closeWork()
     closeRepublicans()
     nick.style.display= "block"
-    closeRepublicansTwo()
+    closeRepublicansTwo();
+    closeChangingRoles();
+    closeSocial();
 }
 
 function revealOwnNothing() {
@@ -53,6 +84,8 @@ function revealOwnNothing() {
     closeRepublicans()
     ownNothing.style.display="block"
     closeRepublicansTwo()
+    closeChangingRoles();
+    closeSocial();
 }
 
 function revealWoke() {
@@ -63,6 +96,8 @@ function revealWoke() {
     closeRepublicans()
     woke.style.display = "block"
     closeRepublicansTwo()
+    closeChangingRoles();
+    closeSocial();
 }
 
 function revealMoney() {
@@ -73,6 +108,12 @@ function revealMoney() {
     closeWork()
     closeRepublicans()
     closeRepublicansTwo()
+    closeChangingRoles();
+    closeSocial();
+}
+
+function closeSocial() {
+    social.style.display = "none";
 }
 
 function closeNick() {
@@ -101,6 +142,10 @@ function closeWork() {
 
 function closeRepublicansTwo(){
     republicansTwo.style.display = "none"
+}
+
+function closeChangingRoles(){
+    changingRoles.style.display = "none";
 }
 
 

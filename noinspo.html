@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <style>
-        .hide{
+        .hide {
             display: none;
         }
 
-        .header{
+        .header {
             text-align: center;
         }
 
-        .quotes{
+        .quotes {
             text-align: center;
         }
 
-        .sexText{
-            position: relative;;
-            top: 210px;
-            color:aliceblue;
-        }
-
-        .button{
+        .sexText {
             position: relative;
-            display:block;
-            text-align:center;
+            ;
+            top: 210px;
+            color: aliceblue;
+        }
+
+        .button {
+            position: relative;
+            display: block;
+            text-align: center;
             border: none;
             background: black;
             cursor: pointer;
@@ -33,7 +35,7 @@
             border-radius: 20px;
         }
 
-        .seaText{
+        .seaText {
             position: relative;
             top: 210px;
             left: 80px;
@@ -41,14 +43,14 @@
             color: rgb(129, 38, 22);
         }
 
-       
-       
-        .ojImage{
+
+
+        .ojImage {
             height: 300px;
             width: 500px;
         }
 
-        .ojText{
+        .ojText {
             position: relative;
             top: 180px;
             left: 0px;
@@ -56,490 +58,639 @@
             color: rgb(243, 130, 18);
         }
 
-       .fuckImage{
+        .fuckImage {
             height: 400px;
-            
-       }
 
-       .fuckText{
+        }
+
+        .fuckText {
             font-size: 12px;
             position: relative;
             top: 30px;
             color: rgb(221, 236, 9);
-       }
+        }
 
-       .fuckText:hover{
-        font-size: 20px;
-        background-color: black;
-       }
+        .fuckText:hover {
+            font-size: 20px;
+            background-color: black;
+        }
 
-       .springImage{
+        .springImage {
             height: 400px;
-       }
+        }
 
-       .springText{
+        .springText {
             position: relative;
             top: 380px;
             color: gray;
-       }
-        
-       .meanText{
-        position: relative;
-        color: rgb(115, 240, 65);
-        top: 200px;
-        font-size: 20px;
-       }
+        }
 
-       .markText{
-        position: relative;
-        top: 25px;
-        color:burlywood;
-       }
-       
-       .fertImage{
-        height: 400px;
-        
-        
-       }
+        .meanText {
+            position: relative;
+            color: rgb(115, 240, 65);
+            top: 200px;
+            font-size: 20px;
+        }
 
-       .fertText{
-        position: relative;
-        top: 200px;
-        color:blanchedalmond;
-       }
+        .markText {
+            position: relative;
+            top: 25px;
+            color: burlywood;
+        }
 
-       .laughText{
-        position: relative;
-        top: 220px;
-        color:aqua;
-        font-size: 20px;
-       }
+        .fertImage {
+            height: 400px;
 
-       .light{
-        border: none;
-        background: none;
-        position: relative;
-        top: 200px;
-        color: white;
-        font-size:19px;
-       }
 
-       
+        }
 
-       .light:hover{
-        color: yellow;
-       }
+        .fertText {
+            position: relative;
+            top: 200px;
+            color: blanchedalmond;
+        }
 
-       .beardImage{
-        height: 400px;
-        width: 400px;
-       }
+        .laughText {
+            position: relative;
+            top: 220px;
+            color: aqua;
+            font-size: 20px;
+        }
 
-       .beardText{
-        position: relative;
-        top: 290px;
-        right: 10px;
-        font-size: 18px;
-        color:rgb(49, 18, 18);
-       }
+        .light {
+            border: none;
+            background: none;
+            position: relative;
+            top: 200px;
+            color: white;
+            font-size: 19px;
+        }
 
-       .lifeText{
-        position: relative;
-        top: 125px;
-        font-size: 20px;
-       }
 
-       .pokeText{
-        position: relative;
-        top: 150px;
-        left: 20px;
-       }
 
-      .math{
-        position: relative;
-        bottom: 100px;
-       }
+        .light:hover {
+            color: yellow;
+        }
 
-       .mathImage{
-        height: 400px;
-        
-       }
+        .beardImage {
+            height: 400px;
+            width: 400px;
+        }
 
-       .mathText{
-        position: relative;
-        top: 255px;
-        color: rgb(50, 6, 87);
-        font-size: 18px;
-        right: 2px;
-       }
+        .beardText {
+            position: relative;
+            top: 290px;
+            right: 10px;
+            font-size: 18px;
+            color: rgb(49, 18, 18);
+        }
 
-       .sugarImage{
-        height: 400px;
-        width: 500px;
-       }
+        .lifeText {
+            position: relative;
+            top: 125px;
+            font-size: 20px;
+        }
 
-       .sugarText{
-        position: relative;
-        top: 50px;
-        font-size: 25px;
-       }
+        .pokeText {
+            position: relative;
+            top: 150px;
+            left: 20px;
+        }
 
-       .sugarWord:hover{
-        visibility: hidden;
-        position: relative;
-       }
+        .math {
+            position: relative;
+            bottom: 100px;
+        }
 
-       .sugarWord:hover:before{
-        visibility: visible;
-        position: absolute;
-        top: 0;
-        left: 0;
-        content: 'vodka?"'
-       }
+        .mathImage {
+            height: 400px;
 
-       .soonImage{
-        height: 400px;
-       }
+        }
 
-       .soonText{
-        position: relative;
-        color: white;
-        top: 250px;
-       }
+        .mathText {
+            position: relative;
+            top: 255px;
+            color: rgb(50, 6, 87);
+            font-size: 18px;
+            right: 2px;
+        }
 
-       .suckImage{
-        height: 400px;
-       }
+        .sugarImage {
+            height: 400px;
+            width: 500px;
+        }
 
-       .suckText{
-        position: relative;
-        top: 390px;
-        font-size: 25px;
-        color:rgb(235, 27, 235);
-       }
+        .sugarText {
+            position: relative;
+            top: 50px;
+            font-size: 25px;
+        }
 
-       .tomorrowImage{
-        height: 400px;
-       }
+        .sugarWord:hover {
+            visibility: hidden;
+            position: relative;
+        }
 
-       .tomorrowText{
-        color: white;
-        position: relative;
-        top: 310px;
-        right: 20px;
-        font-size: 22px;
-       }
+        .sugarWord:hover:before {
+            visibility: visible;
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: 'vodka?"'
+        }
 
-       .dreamImage{
-        width: 500px;
-       }
+        .soonImage {
+            height: 400px;
+        }
 
-       .dreamText{
-        position: relative;
-        top: 120px;
-        color: yellowgreen;
-        font-size: 20px;
-       }
+        .soonText {
+            position: relative;
+            color: white;
+            top: 250px;
+        }
 
-       .oneDayText{
-        position: relative;
-        top: 230px;
-        font-size: 30px;
-        color: gold;
-       }
+        .suckImage {
+            height: 400px;
+        }
 
-       .cellImage, .wingsuitImage, .suitImage, .riverImage, .diceImage, .gameImage, .holeImage, .curbImage {
-        height: 250px;
-        width: 350px;
-       }
+        .suckText {
+            position: relative;
+            top: 390px;
+            font-size: 25px;
+            color: rgb(235, 27, 235);
+        }
 
-       .suitImage{
-        border: 2px solid black;
-        height: 300px;
-        width: 400px;
-       }
+        .tomorrowImage {
+            height: 400px;
+        }
 
-       .riverImage{
-        width: 420px;
-       }
+        .tomorrowText {
+            color: white;
+            position: relative;
+            top: 310px;
+            right: 20px;
+            font-size: 22px;
+        }
 
-       .cellText{
-        font-family: 'Playfair', serif;
-        position: relative;
-        color: white;
-        top: 150px;
-        font-size: 37px;
-       }
+        .dreamImage {
+            width: 500px;
+        }
 
-       .cellText:hover{
-        color: black;
-        background-color: white;
-        font-size: 50px;
-       }
+        .dreamText {
+            position: relative;
+            top: 120px;
+            color: yellowgreen;
+            font-size: 20px;
+        }
 
-        .wingsuitText{
+        .oneDayText {
+            position: relative;
+            top: 230px;
+            font-size: 30px;
+            color: gold;
+        }
+
+        .koolImage,
+        .clownImage,
+        .cellImage,
+        .wingsuitImage,
+        .suitImage,
+        .riverImage,
+        .diceImage,
+        .gameImage,
+        .holeImage,
+        .curbImage,
+        .coinImage,
+        .dodgeballImage,
+        .forkImage, .kImage, .bedImage {
+            height: 250px;
+            width: 350px;
+        }
+
+        .suitImage {
+            border: 2px solid black;
+            height: 300px;
+            width: 400px;
+        }
+
+        .riverImage {
+            width: 420px;
+        }
+
+        .cellText {
+            font-family: 'Playfair', serif;
+            position: relative;
+            color: white;
+            top: 150px;
+            font-size: 37px;
+        }
+
+        .cellText:hover {
+            color: black;
+            background-color: white;
+            font-size: 50px;
+        }
+
+        .wingsuitText {
             font-family: 'Pangolin', cursive;
             position: relative;
             top: 150px;
             left: 30px;
         }
 
-    .suitText{
-        font-family: 'Lato', sans-serif;
-        position: relative;
-        top: 50px;
-        right: 43px;
-        color: rgb(96, 96, 238);
-    }
+        .suitText {
+            font-family: 'Lato', sans-serif;
+            position: relative;
+            top: 50px;
+            right: 43px;
+            color: rgb(96, 96, 238);
+        }
 
-.riverText{
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    top: 20px;
-}
+        .riverText {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            top: 20px;
+        }
 
-.riverDistance{
-    position: relative;
-    top: 190px;
-    right: 125px;
-}
+        .riverDistance {
+            position: relative;
+            top: 190px;
+            right: 125px;
+        }
 
-.diceText{
-    font-family: 'Roboto Condensed', sans-serif;
-    position: relative;
-    top: 230px;
-    color: rgb(233, 10, 10);
-}
+        .diceText {
+            font-family: 'Roboto Condensed', sans-serif;
+            position: relative;
+            top: 230px;
+            color: rgb(233, 10, 10);
+        }
 
-.gameText{
-    font-family: 'Josefin Sans', sans-serif;
-    position: relative;
-    top: 150px;
-    font-size: 25px;
-}
+        .gameText {
+            font-family: 'Josefin Sans', sans-serif;
+            position: relative;
+            top: 150px;
+            font-size: 25px;
+        }
 
-.holeText{
-    font-family: 'Quicksand', sans-serif;
-    position: relative;
-    top: 150px;
-    color: yellow;
-}
+        .holeText {
+            font-family: 'Quicksand', sans-serif;
+            position: relative;
+            top: 150px;
+            color: yellow;
+        }
 
-.curbText{
-    font-family: 'Quicksand', sans-serif;
-    position: relative;
-    top: 150px;
-}
+        .curbText {
+            font-family: 'Quicksand', sans-serif;
+            position: relative;
+            top: 150px;
+        }
 
+        .clownText {
+            font-family: 'Shadows Into Light', cursive;
+            color: rgb(240, 8, 151);
+            position: relative;
+            top: 120px;
+            font-size: 25px;
+            left: 20px;
 
+        }
+
+        .coinText {
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            position: relative;
+            top: 140px;
+            font-size: 25px;
+        }
+
+        .dodgeballText {
+            font-family: 'Alumni Sans Collegiate One', sans-serif;
+            color: rgb(247, 5, 146);
+            position: relative;
+            top: 200px;
+            font-size: 30px;
+        }
+
+        .ball{
+            position: relative;
+            right: 50px;
+        }
+
+       .now{
+            position: relative;
+            left: 50px;
+        }
+
+        .forkText{
+            font-family: "Permanent_Marker", cursive;
+            position: relative;
+            top: 50px;
+        }
+
+        .you{
+            position: relative;
+            right: 42px;
+        }
+
+        .do{
+            position: relative;
+            left: 42px;
+            color: red;
+        }
+
+        .knifeText {
+            font-family: "Caveat", cursive;
+            position: relative;
+            top: 125px;
+            color: rgb(149, 13, 184);
+            font-size: 23px;
+        }
+
+        .bedText{
+            font-family: 'Playfair Display', serif;
+            position: relative;
+            color: white;
+            top: 150px;
+        }
     </style>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z81E4WC0MS"></script>
+
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-Z81E4WC0MS');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Z81E4WC0MS');
     </script>
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2129084867859100"
-    crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Montserrat&family=Pangolin&family=Playfair:ital,wght@1,300&family=Quicksand:wght@400;600&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Montserrat&family=Pangolin&family=Playfair:ital,wght@1,300&family=Quicksand:wght@400;600&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Chakra+Petch:wght@300&family=Cormorant+Garamond:wght@300&family=Gloria+Hallelujah&family=Irish+Grover&family=Jost:wght@300&family=Khand:wght@300&family=Mukta&family=Open+Sans&family=Pacifico&family=Pathway+Extreme&family=Comic+Neue:wght@700&family=Poppins:wght@200&family=Roboto+Condensed:ital@1&family=Source+Sans+Pro:ital,wght@1,200&family=Sunflower:wght@300&family=Thasadith:ital,wght@1,700&family=Yanone+Kaffeesatz&family=Carlito&family=Ysabeau:ital,wght@1,100&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Chakra+Petch:wght@300&family=Cormorant+Garamond:wght@300&family=Gloria+Hallelujah&family=Irish+Grover&family=Jost:wght@300&family=Khand:wght@300&family=Mukta&family=Open+Sans&family=Pacifico&family=Pathway+Extreme&family=Comic+Neue:wght@700&family=Poppins:wght@200&family=Roboto+Condensed:ital@1&family=Source+Sans+Pro:ital,wght@1,200&family=Sunflower:wght@300&family=Thasadith:ital,wght@1,700&family=Yanone+Kaffeesatz&family=Carlito&family=Ysabeau:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Google Fonts/Alumni_Sans_Collegiate_One,Barlow_Semi_Condensed,Caveat,Permanent_Marker,Playfair_Display,etc/Alumni_Sans_Collegiate_One/AlumniSansCollegiateOne-Italic.ttf">
+    <link rel="stylesheet" href="Google Fonts/Alumni_Sans_Collegiate_One,Barlow_Semi_Condensed,Caveat,Permanent_Marker,Playfair_Display,etc/Barlow_Semi_Condensed/BarlowSemiCondensed-Bold.ttf">
+    <link rel="stylesheet" href="Google Fonts/Alumni_Sans_Collegiate_One,Barlow_Semi_Condensed,Caveat,Permanent_Marker,Playfair_Display,etc/Caveat/Caveat-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="Google Fonts/Alumni_Sans_Collegiate_One,Barlow_Semi_Condensed,Caveat,Permanent_Marker,Playfair_Display,etc/Permanent_Marker/PermanentMarker-Regular.ttf">
+    <link rel="stylesheet" href="Google Fonts/Alumni_Sans_Collegiate_One,Barlow_Semi_Condensed,Caveat,Permanent_Marker,Playfair_Display,etc/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="Google Fonts/Alumni_Sans_Collegiate_One,Barlow_Semi_Condensed,Caveat,Permanent_Marker,Playfair_Display,etc/Raleway/Raleway-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="Google Fonts/Alumni_Sans_Collegiate_One,Barlow_Semi_Condensed,Caveat,Permanent_Marker,Playfair_Display,etc/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf">
     <title>No Inspiration Quotes</title>
 </head>
+
 <body>
-    <div> 
+    <div>
 
         <div class="header">
-    <h3 style="font-family: 'Comic Neue', cursive;">No-Inspiration Quote</h3>
+            <h3 style="font-family: 'Comic Neue', cursive;">No-Inspiration Quote</h3>
+        </div>
+
+        <div class="quotes">
+
+            <div class="sex" id="sex">
+                <div class="outerDiv">
+                    <div class=test>
+                        <div style="font-family: 'Poppins', sans-serif;" class="sexText">"Sex sells, but crime pays"
+                        </div>
+                        <img src="img/noInspirationPosts/sexSells.jpg">
+                    </div>
+                </div>
+                <div class="sexButton">
+                    <button class="button" onclick="showSea()"></button>
+                </div>
+            </div>
+
+            <div class="sea hide" id="sea">
+                <div class="seaText" style="font-family: 'Pacifico', cursive;">“The sea leaves no tracks”</div>
+                <img class="seaImage" src="img/noInspirationPosts/sea.jpg">
+                <button class="button" onclick="revealOj()"></button>
+            </div>
+
+            <div class="oj hide" id="oj">
+                <div class="ojText" style="font-family: 'Carlito', sans-serif">"OJ did it"</div>
+                <img class="ojImage" src="img/noInspirationPosts/oj.jpg">
+                <button class="button" onclick="revealFuck()"></button>
+            </div>
+
+            <div class="fuck hide" id="fuck">
+                <div class="fuckText" style="font-family: 'Ysabeau', sans-serif;">"There's only one chick worth fucking"
+                </div>
+                <img class="fuckImage" src="img/noInspirationPosts/fuck.jpg">
+                <button class="button" onclick="revealSpring()"></button>
+            </div>
+
+            <div class="spring hide" id="spring">
+                <div class="springText" style="font-family: 'Bruno Ace SC', cursive;">"Never do homework on spring
+                    break"</div>
+                <img class="springImage" src="img/noInspirationPosts/springBreak.jpg">
+                <button class="button" onclick="revealMean()"></button>
+            </div>
+
+            <div class="mean hide" id="mean">
+                <div class="meanText" style="font-family: 'Pathway Extreme', sans-serif;">"You gotta be mean"</div>
+                <img class="meanImage" src="img/noInspirationPosts/mean.jpg">
+                <button class="button" onclick="revealMark()"></button>
+            </div>
+
+            <div class="mark hide" id="mark">
+                <div class="markText" style="font-family: 'Castoro Titling', cursive;">“Never clean your mark out”</div>
+                <img class="markImage" src="img/noInspirationPosts/goodfel.jpg">
+                <butto class="button" onclick="revealFert()"></button>
+            </div>
+
+            <div class="fert hide" id="fert">
+                <div class="fertText" style="font-family: 'Roboto Condensed', sans-serif;">"Sometimes you gotta
+                    fertilize your garden"</div>
+                <img class="fertImage" src="img/noInspirationPosts/fertilizer.jpg">
+                <button class="button" onclick="revealLaugh()"></button>
+            </div>
+
+            <div class="laugh hide" id="laugh">
+                <div class="laughText" style="font-family:'Mukta', sans-serif;">"Laughter is the best medicine"</div>
+                <img src="img/noInspirationPosts/kidslaugh.jpg">
+                <button class="button" onclick="revealLightOne()"></button>
+            </div>
+
+            <div class="lightOne hide" id="lightOne">
+                <div style="font-family: 'Cormorant Garamond', serif;"><button class="light"
+                        onclick="revealLightTwo()">"let thereBeLight = !false"</button></div>
+                <img id="lightOneImage" src="img/noInspirationPosts/lightone.jpg">
+                <button class="button" onclick="revealBeard()"></button>
+            </div>
+
+            <div class="beard hide" id="beard">
+                <div class="beardText" style="font-family: 'Yanone Kaffeesatz', sans-serif;">"Is that beard or spider?"
+                </div>
+                <img class="beardImage" src="img/noInspirationPosts/beard.jpg">
+                <button class="button" onclick="revealLife()"></button>
+            </div>
+
+            <div class="life hide" id="life">
+                <div class="lifeText" style="font-family: 'Chakra Petch', sans-serif; ">"Life is the hardest thing in
+                    life"</div>
+                <img class="lifeImage" src="img/noInspirationPosts/life.jpg">
+                <button class="button" onclick="revealPokeCenter()"></button>
+            </div>
+
+            <div class="pokeCenter hide" id="pokeCenter">
+                <div class="pokeText" style="font-family: 'Gloria Hallelujah', cursive;">Poke Center: "We hope to see
+                    you again!"</div>
+                <img class="pokeImage" src="img/noInspirationPosts/pokeCenter.jpg">
+                <button class="button" onclick="revealMath()"></button>
+            </div>
+
+            <div class="math hide" id="math">
+                <div class="mathText" style="font-family: 'Khand', sans-serif;"><strong>"4 days a week,<br> Laura
+                        practices martial arts for 1.5 hours.<br> Considering a week is 7 days,<br> what is her average
+                        practice time per day each week?"</strong></div>
+                <img class="mathImage" src="img/noInspirationPosts/math.jpg">
+                <button class="button" onclick="revealSugar()"></button>
+            </div>
+
+            <div class="sugar hide" id="sugar">
+                <div class="sugarText" style="font-family: 'Open Sans', sans-serif;">"Where's the <span
+                        class="sugarWord">sugar"</span></div>
+                <img class="sugarImage" src="img/noInspirationPosts/lime.jpg">
+                <button class="button" onclick="revealSoon()"></button>
+            </div>
+
+            <div class="soon hide" id="soon">
+                <div class="soonText" style="font-family: 'Jost', sans-serif;">"Coming soon"</div>
+                <img class="soonImage" src="img/noInspirationPosts/soon.jpg">
+                <button class="button" onclick="revealSuck()"></button>
+            </div>
+
+            <div class="suck hide" id="suck">
+                <div class="suckText" style="font-family: 'Sunflower', sans-serif;">"Suck a little higher"</div>
+                <img class="suckImage" src="img/noInspirationPosts/suck.jpg">
+                <button class="button" onclick="revealTomorrow()"></button>
+            </div>
+
+            <div class="tomorrow hide" id="tomorrow">
+                <div class="tomorrowText" style="font-family: 'Irish Grover', cursive;">"There's always<br> tomorrow"
+                </div>
+                <img class="tomorrowImage" src="img/noInspirationPosts/tomorrow.jpg">
+                <button class="button" onclick="revealDream()"></button>
+            </div>
+
+            <div class="dream hide" id="dream">
+                <div class="dreamText" style="font-family: 'Source Sans Pro', sans-serif;"><strong>"It was all a
+                        dream"</strong></div>
+                <img class="dreamImage" src="img/noInspirationPosts/dream.jpg">
+                <button class="button" onclick="revealoneDay()"></button>
+            </div>
+
+            <div class="oneDay hide" id="oneDay">
+                <div class="oneDayText" style="font-family: 'Thasadith', sans-serif;">"Maybe one day"</div>
+                <img class="oneDayImage" src="img/noInspirationPosts/oneDay.jpg">
+                <button class="button" onclick="revealCell()"></button>
+            </div>
+
+            <div class="hide" id="cell">
+                <div class="cellText">"What's your excuse?"</div>
+                <img class="cellImage" src="img/noInspirationPosts/cell.jpg">
+                <button class="button" onclick="revealWingsuit()"></button>
+            </div>
+
+            <div class="hide" id="wingsuit">
+                <div class="wingsuitText">"Failure is only a fear"</div>
+                <img class="wingsuitImage" src="img/noInspirationPosts/wingsuit.jpg">
+                <button class="button" onclick="revealSuit()"></button>
+            </div>
+
+            <div class="hide" id="suit">
+                <div class="suitText">"Boys never wear suits"</div>
+                <img class="suitImage" src="img/noInspirationPosts/suit.jpg">
+                <button class="button" onclick="revealRiver()"></button>
+            </div>
+
+            <div class="hide" id="river">
+                <div class="riverText">"It's a mighty big jump between easy <span class="riverDistance">and very
+                        easy"</span></div>
+                <img class="riverImage" src="img/noInspirationPosts/river.jpg">
+                <button class="button" onclick="revealDice()"></button>
+            </div>
+
+            <div class="hide" id="dice">
+                <div class="diceText">"What are the odds"</div>
+                <img class="diceImage" src="img/noInspirationPosts/dice.jpg">
+                <button class="button" onclick="revealGame()"></button>
+            </div>
+
+            <div class="hide" id="game">
+                <div class="gameText">"Play the game"</div>
+                <img class="gameImage" src="img/noInspirationPosts/game.jpg">
+                <button class="button" onclick="revealHole()"></button>
+            </div>
+
+            <div class="hide" id="hole">
+                <div class="holeText">"Stray away from blackholes"</div>
+                <img class="holeImage" src="img/noInspirationPosts/hole.jpg">
+                <button class="button" onclick="revealCurb()"></button>
+            </div>
+
+            <div class="hide" id="curb">
+                <div class="curbText">"Trouble is around the corner"</div>
+                <img class="curbImage" src="img/noInspirationPosts/curb.jpg">
+                <button class="button" onclick="revealClown()"></button>
+            </div>
+
+            <div class="hide" id="clown">
+                <div class="clownText">"You gotta look the part"</div>
+                <img class="clownImage" style="border: 2px solid black; padding: 3px;"
+                    src="img/noInspirationPosts/1016/clown.png">
+                <button class="button" onclick="revealCoin()"></button>
+            </div>
+
+            <div class="hide" id='coin'>
+                <div class="coinText">"If it doesn't make cents, <br>it definitely won't make dollars"</div>
+                <img class="coinImage" src="img/noInspirationPosts/1016/coins.png">
+                <button class="button" onclick="revealDodgeball()"></button>
+            </div>
+
+            <div class="hide" id="dodgeball" style="position: relative; bottom: 150px;">
+                <div class="dodgeballText" ><span class="ball">"Ball</span> <br><br><span class="right">Right</span><br><br><span class="now">Now"</span></div>
+                <img class="dodgeballImage" src="img/noInspirationPosts/1016/dodgeball.png">
+                <button class="button" onclick="revealFork()"></button>
+            </div>
+
+            <div class="hide" id="fork">
+                <div class="forkText"><span class="you">"You Can't</span> <span class="do">Do Both"</span></div>
+                <img class="forkImage" src="img/noInspirationPosts/1016/fork.png">
+                <button class="button" onclick="revealKnife()"></button>
+            </div>
+
+            <div class="hide" id="knife">
+                <div class="knifeText">"The Only Fear is Never Trying"</div>
+                <img class="kImage" src="img/noInspirationPosts/1016/knife.png">   
+                <button class="button" onclick="revealBed()"></button>
+            </div>
+
+            <div class="hide" id="bed">
+                <div class="bedText">"Simple ain't easy"</div>
+                <img class="bedImage" src="img/noInspirationPosts/1016/bed.png">
+                <button class="button" onclick="revealKool()"></button>
+            </div>
+
+            <div class="hide" id="kool">
+                <div class="koolText" style="color: rgb(13, 213, 248); position: relative; top: 150px;"; ><strong>"It Doesn't Take Much"</strong></div>
+                <img class="koolImage" src="img/noInspirationPosts/1016/sugar.png">
+            </div>
+
+        <a href="floorone.html">back</a>
     </div>
-
-    <div class="quotes">
-
-        <div class="sex" id="sex" >
-            <div class="outerDiv">
-            <div class=test>
-            <div style="font-family: 'Poppins', sans-serif;" class="sexText">"Sex sells, but crime pays"</div>
-            <img src="img/noInspirationPosts/sexSells.jpg">
-            </div>
-            </div>
-            <div class="sexButton">
-            <button class= "button" onclick="showSea()"></button>
-            </div>
-        </div>
-
-        <div class="sea hide" id="sea">
-            <div class="seaText" style="font-family: 'Pacifico', cursive;">“The sea leaves no tracks”</div>
-            <img class="seaImage" src="img/noInspirationPosts/sea.jpg">
-            <button class="button" onclick="revealOj()"></button>
-        </div>
-        
-        <div class="oj hide" id="oj">
-            <div class="ojText" style="font-family: 'Carlito', sans-serif">"OJ did it"</div>
-            <img class="ojImage" src="img/noInspirationPosts/oj.jpg">
-            <button class="button" onclick="revealFuck()"></button>
-        </div>
-        
-        <div class="fuck hide" id="fuck">
-            <div class="fuckText"style="font-family: 'Ysabeau', sans-serif;">"There's only one chick worth fucking"</div>
-            <img class="fuckImage"src="img/noInspirationPosts/fuck.jpg">
-            <button class="button" onclick="revealSpring()"></button>
-        </div>
-        
-        <div class="spring hide" id="spring">
-            <div class="springText" style="font-family: 'Bruno Ace SC', cursive;">"Never do homework on spring break"</div>
-            <img class="springImage" src="img/noInspirationPosts/springBreak.jpg">
-            <button class="button" onclick="revealMean()"></button>
-        </div>
-        
-        <div class="mean hide" id="mean">
-            <div class="meanText" style="font-family: 'Pathway Extreme', sans-serif;">"You gotta be mean"</div>   
-            <img class="meanImage"src="img/noInspirationPosts/mean.jpg">
-            <button class="button" onclick="revealMark()"></button>
-        </div>
-        
-        <div class="mark hide" id="mark">
-            <div class="markText" style="font-family: 'Castoro Titling', cursive;">“Never clean your mark out”</div>
-            <img class="markImage" src="img/noInspirationPosts/goodfel.jpg">
-            <butto class="button"  onclick="revealFert()"></button>
-        </div>
-        
-        <div class="fert hide" id="fert">
-            <div class="fertText"style="font-family: 'Roboto Condensed', sans-serif;">"Sometimes you gotta fertilize your garden"</div>
-            <img class="fertImage"src="img/noInspirationPosts/fertilizer.jpg">
-            <button class="button" onclick="revealLaugh()" ></button>
-        </div>
-        
-        <div class="laugh hide" id="laugh">
-            <div class="laughText" style="font-family:'Mukta', sans-serif;">"Laughter is the best medicine"</div>
-            <img src="img/noInspirationPosts/kidslaugh.jpg">
-            <button class="button" onclick="revealLightOne()"></button>
-        </div>
-        
-        <div class="lightOne hide" id="lightOne">
-            <div style="font-family: 'Cormorant Garamond', serif;"><button class="light" onclick="revealLightTwo()">"let thereBeLight = !false"</button></div>
-            <img id="lightOneImage" src="img/noInspirationPosts/lightone.jpg">
-            <button class="button" onclick="revealBeard()"></button>
-        </div>
-
-       <div class="beard hide" id="beard">
-            <div class="beardText" style="font-family: 'Yanone Kaffeesatz', sans-serif;">"Is that beard or spider?"</div>
-            <img class="beardImage" src="img/noInspirationPosts/beard.jpg">
-            <button class="button" onclick="revealLife()"></button>
-        </div>
-        
-        <div class="life hide" id="life">
-            <div class="lifeText" style="font-family: 'Chakra Petch', sans-serif; ">"Life is the hardest thing in life"</div>
-            <img class="lifeImage" src="img/noInspirationPosts/life.jpg">
-            <button class="button" onclick="revealPokeCenter()"></button>
-        </div>
-        
-        <div class="pokeCenter hide" id="pokeCenter">
-            <div class="pokeText" style="font-family: 'Gloria Hallelujah', cursive;">Poke Center: "We hope to see you again!"</div>
-            <img class="pokeImage" src="img/noInspirationPosts/pokeCenter.jpg">
-            <button class="button" onclick="revealMath()"></button>
-        </div>
-        
-        <div class="math hide" id="math">
-            <div class="mathText" style="font-family: 'Khand', sans-serif;"><strong>"4 days a week,<br> Laura practices martial arts for 1.5 hours.<br> Considering a week is 7 days,<br> what is her average practice time per day each week?"</strong></div>
-            <img class="mathImage" src="img/noInspirationPosts/math.jpg">
-            <button class="button" onclick="revealSugar()"></button>
-        </div>
-        
-        <div class="sugar hide" id="sugar">
-            <div class="sugarText" style="font-family: 'Open Sans', sans-serif;">"Where's the <span class="sugarWord">sugar"</span></div>
-            <img class="sugarImage" src="img/noInspirationPosts/lime.jpg"> 
-            <button class="button" onclick="revealSoon()"></button>
-        </div>
-        
-        <div class="soon hide" id="soon">
-            <div class="soonText" style="font-family: 'Jost', sans-serif;">"Coming soon"</div>
-            <img class="soonImage" src="img/noInspirationPosts/soon.jpg">
-            <button class="button" onclick="revealSuck()"></button>
-        </div>
-        
-        <div class="suck hide" id="suck">
-            <div class="suckText" style="font-family: 'Sunflower', sans-serif;">"Suck a little higher"</div>
-            <img class="suckImage" src="img/noInspirationPosts/suck.jpg">
-            <button class="button" onclick="revealTomorrow()"></button>
-        </div>
-        
-        <div class="tomorrow hide" id="tomorrow">
-            <div class="tomorrowText" style="font-family: 'Irish Grover', cursive;">"There's always<br> tomorrow"</div>
-            <img class="tomorrowImage" src="img/noInspirationPosts/tomorrow.jpg">
-            <button class="button" onclick="revealDream()"></button>
-        </div>
-
-        <div class="dream hide" id="dream">
-            <div class="dreamText" style="font-family: 'Source Sans Pro', sans-serif;"><strong>"It was all a dream"</strong></div>
-            <img class="dreamImage" src="img/noInspirationPosts/dream.jpg">
-            <button class="button" onclick="revealoneDay()"></button>
-        </div>
-        
-        <div class="oneDay hide" id="oneDay">
-            <div class="oneDayText" style="font-family: 'Thasadith', sans-serif;">"Maybe one day"</div>
-            <img class="oneDayImage" src="img/noInspirationPosts/oneDay.jpg">
-            <button class="button" onclick="revealCell()"></button>
-        </div>
-
-        <div class="hide" id="cell">
-            <div class="cellText">"What's your excuse?"</div>
-            <img class="cellImage" src="img/noInspirationPosts/cell.jpg">
-            <button class="button" onclick="revealWingsuit()"></button>
-        </div>
-
-        <div class="hide" id="wingsuit">
-            <div class="wingsuitText">"Failure is only a fear"</div>
-            <img class="wingsuitImage" src="img/noInspirationPosts/wingsuit.jpg">
-            <button class="button" onclick="revealSuit()"></button>
-        </div>
-
-        <div class="hide" id="suit">
-            <div class="suitText">"Boys never wear suits"</div>
-            <img class="suitImage" src="img/noInspirationPosts/suit.jpg">
-            <button class="button" onclick="revealRiver()"></button>
-        </div>
-
-        <div class="hide" id="river">
-            <div class="riverText">"It's a mighty big jump between easy <span class="riverDistance">and very easy"</span></div>
-            <img class="riverImage" src="img/noInspirationPosts/river.jpg">
-            <button class="button" onclick="revealDice()"></button>
-        </div>
-
-        <div class="hide" id="dice">
-            <div class="diceText">"What are the odds"</div>
-            <img class="diceImage" src="img/noInspirationPosts/dice.jpg">
-            <button class="button" onclick="revealGame()"></button>
-        </div>
-
-        <div class="hide" id="game">
-            <div class="gameText">"Play the game"</div>
-            <img class="gameImage" src="img/noInspirationPosts/game.jpg">
-            <button class="button"onclick="revealHole()" ></button>
-        </div>
-
-        <div class="hide" id="hole">
-            <div class="holeText">"Stray away from blackholes"</div>
-            <img class="holeImage" src="img/noInspirationPosts/hole.jpg">
-            <button class="button" onclick="revealCurb()"></button>
-        </div>
-
-        <div class="hide" id="curb">
-            <div class="curbText">"Trouble is around the corner"</div>
-            <img class="curbImage" src="img/noInspirationPosts/curb.jpg">
-        </div>
-
-    </div>
-    <a href="floorone.html">back</a>
-</div>
-<script src="noinspo.js"></script>
+    <script src="noinspo.js"></script>
 </body>
+
 </html>
