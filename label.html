@@ -159,23 +159,48 @@
         <div id="videoContent" class="videoContent">
             <div id="yinYangDiv">
                 <div id="yinYangContent">
-                    <img id="yinYangPlaceHolder" src="img/nogo.jpg">
-                    <p class="notReadyText">This content is not ready.  Watch it <a href="https://youtu.be/XgFg7aJdLPs" target="_blank">here</a> on youtube.</p>
+                    
+                    <video width="640" height="360" controls>
+                        <source src="audio/yiyi.mp4">
+                    </video>
+
                     <button style="background-color: yellow;" onclick="revealDrakeH()">Honorable Mention-Drake HYFR</button>
                 </div>
 
                 <div id="drakePlaceHolder" style="display:none; border:5px solid yellow; width: fit-content">
-                    <img class="drakeNoGo" src="img/nogo.jpg">
-                    <p class="notReadyText">This content is not ready watch it <a href="https://youtu.be/Fe9njRMe-dY" target="_blank">here</a> on youtube</p>
+                    <video width="640" height="360" controls>
+                        <source src="audio/hyfr - Copy.mp4">
+                    </video>
                 </div>
             </div>
         </div>
 
-        <div id="audioContent" class="audioContent">
-            <button onclick="playManLib()"class="audioContentButton">manLib<i  class="fa-solid fa-volume-high moveOne"><audio id="manLib" src="audio/manLib.mp3"></audio></i></button>
-            <button onclick="playBaby()"class="audioContentButton">babyBaby<i class="fa-solid fa-volume-high moveTwo"><audio id="baby" src="audio/babybaby.wav"></audio></i></button>
-            <button onclick="playSorry()"class="audioContentButton">SorryDrakeForUsingYourFlow...Again<i class="fa-solid fa-volume-high moveThree"><audio id="sorry" src="audio/SorryDrakeForUsingYourFlowAgain.wav"></audio></i></button>
-            <p style="color: red;">The content on this page is not ready.</p>
+        <div id="audioContent" class="audioContent" style="width: 250px;">
+            <audio controls>
+                <source src="audio/No title 1.wav">
+            </audio>
+
+            <audio controls>
+                <source src="audio/No title 2.wav">
+            </audio>
+                
+            <audio controls>
+                <source src="audio/No title 3.wav">
+            </audio>
+                
+            <audio controls>
+                <source src="audio/No title 4.wav">
+            </audio>
+
+            <audio controls>
+                <source src="audio/Recording 32.wav">
+            </audio>
+
+            <audio controls>
+                <source src="audio/SorryDrakeForUsingYourFlowAgain.wav">
+            </audio>
+
+            
         </div>
     </div>
 
