@@ -262,7 +262,7 @@
         .curbImage,
         .coinImage,
         .dodgeballImage,
-        .forkImage, .kImage, .bedImage {
+        .forkImage, .kImage, .bedImage, .mouthImage, .goingImage, .speakImage, .mealImage{
             height: 250px;
             width: 350px;
         }
@@ -411,6 +411,34 @@
             color: white;
             top: 150px;
         }
+
+        .mealText {
+            font-family: 'Whisper', cursive;
+            position: relative;
+            top: 150px;
+        }
+
+        .mouthText {
+            font-family: 'Courgette', cursive;
+            color: purple;
+            position: relative;
+            top: 90px;
+            transform: translateX(10px);
+        }
+
+        .goingText {
+            font-family: 'Nova Square', sans-serif;
+            color: gold;
+            position: relative;
+            top: 45px;
+        }
+
+        .speakText {
+            font-family: 'Amatic SC', sans-serif;
+            color: white;
+            position: relative;
+            top: 170px;
+        }
     </style>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z81E4WC0MS"></script>
@@ -439,6 +467,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Chakra+Petch:wght@300&family=Cormorant+Garamond:wght@300&family=Gloria+Hallelujah&family=Irish+Grover&family=Jost:wght@300&family=Khand:wght@300&family=Mukta&family=Open+Sans&family=Pacifico&family=Pathway+Extreme&family=Comic+Neue:wght@700&family=Poppins:wght@200&family=Roboto+Condensed:ital@1&family=Source+Sans+Pro:ital,wght@1,200&family=Sunflower:wght@300&family=Thasadith:ital,wght@1,700&family=Yanone+Kaffeesatz&family=Carlito&family=Ysabeau:ital,wght@1,100&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="Google Fonts/Amatic_SC,Courgette,Nova_Square,Whisper/Amatic_SC/AmaticSC-Bold.ttf">
+    <link rel="stylesheet" href="Google Fonts/Amatic_SC,Courgette,Nova_Square,Whisper/Courgette/Courgette-Regular.ttf">
+    <link rel="stylesheet" href="Google Fonts/Amatic_SC,Courgette,Nova_Square,Whisper/Nova_Square/NovaSquare-Regular.ttf">
+    <link rel="stylesheet" href="Google Fonts/Amatic_SC,Courgette,Nova_Square,Whisper/Whisper/Whisper-Regular.ttf">
     <link rel="stylesheet" href="Google Fonts/Alumni_Sans_Collegiate_One,Barlow_Semi_Condensed,Caveat,Permanent_Marker,Playfair_Display,etc/Alumni_Sans_Collegiate_One/AlumniSansCollegiateOne-Italic.ttf">
     <link rel="stylesheet" href="Google Fonts/Alumni_Sans_Collegiate_One,Barlow_Semi_Condensed,Caveat,Permanent_Marker,Playfair_Display,etc/Barlow_Semi_Condensed/BarlowSemiCondensed-Bold.ttf">
     <link rel="stylesheet" href="Google Fonts/Alumni_Sans_Collegiate_One,Barlow_Semi_Condensed,Caveat,Permanent_Marker,Playfair_Display,etc/Caveat/Caveat-VariableFont_wght.ttf">
@@ -686,10 +718,34 @@
             <div class="hide" id="kool">
                 <div class="koolText" style="color: rgb(13, 213, 248); position: relative; top: 150px;"; ><strong>"It Doesn't Take Much"</strong></div>
                 <img class="koolImage" src="img/noInspirationPosts/1016/sugar.png">
+                <button class="button" onclick="revealMeal()"></button>
             </div>
 
-        <a href="floorone.html">back</a>
-    </div>
+            <div class="hide" id="meal">
+                <div class="mealText">"If the world wants to eat,<br> make sure it has a tasty meal."</div>
+                <img class="mealImage" src="img/noInspirationPosts/1206/Screenshot_20231206_115426_Chrome.jpg">
+                <button class="button" onclick="revealSpeak()"></button>
+            </div>
+
+            <div class="hide" id="speak">
+                <div class="speakText">"First you have to speak up."</div>
+                <img class="speakImage" src="img/noInspirationPosts/1206/Screenshot_20231206_115617_Chrome.jpg">
+                <button class="button" onclick="revealGoing()"></button>
+            </div>
+
+            <div class="hide" id="going">
+                <div class="goingText">"GET TO WHERE YOU'RE GOING"</div>
+                <img class="goingImage" src="img/noInspirationPosts/1206/Screenshot_20231206_115752_Chrome.jpg">
+                <button class="button" onclick="revealMouth()"></button>
+            </div>
+
+            <div class="hide" id="mouth">
+                <div class="mouthText">"You gotta know how to handle a mouth"</div>
+                <img class="mouthImage" src="img/noInspirationPosts/1206/Screenshot_20231206_115935_Chrome.jpg">
+            </div>
+
+        <a href="floorone.html" style="position: relative; top: 25px;">back</a>
+    </div> 
     <script src="noinspo.js"></script>
 </body>
 

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+
+        #showPosters {
+            width: 40%;
+            height: 350px;
+            position:absolute;
+            left: 50.33%;
+            bottom: 100px;
+        }
+
+        .posters {
+            display: none;
+            width: 300px;
+        }
+
+        .posters img {
+            height: 50px;
+            width: 40px;
+        }
+
+      .facemasks {
+            margin-left: 150px;
+        }
+
+        .facemasks img{
+            height: 50%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .facemasks span{
+            position: relative;
+            bottom: 250px;
+            right: 10px;
+        }
+
+        .facemasks div{
+            position: relative;
+            left: 220px;
+        }
+
+        a {
+            text-decoration: none;
+            position: relative;
+            bottom: 230px;
+            right: 50px;
+        }
+
+        .facemasks{
+            display: none;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFB Shop</title>
+</head>
+<body>
+    <p>Items:</p>
+
+    <ul>
+        <li><button onclick="revealFacemasks()">Facemasks</button></li>
+        <li><button onclick="revealPosters()">Posters</button></li>
+        <li><button>Stickers</button></li>
+        <li><button>Cards</button></li>
+    </ul>
+
+    <div class="posters" id="posters" style="border: 2px solid black">
+        <span><button onclick="showEight()" style="cursor: pointer;"><img src="img/shop/poster/eight.jpg"></button></span>
+        <span><button onclick="showEighteen()" style="cursor: pointer;"><img src="img/shop/poster/eighteen.jpg"></button></span>
+        <span><button onclick="showEleven()" style="cursor: pointer;"><img src="img/shop/poster/eleven.jpg"></button></span>
+        <span><button onclick="showFifteen()" style="cursor: pointer;"><img src="img/shop/poster/fifteen.jpg"></button></span>
+        <span><button onclick="showFive()" style="cursor: pointer;"><img src="img/shop/poster/five.jpg"></button></span><br>
+        <span><button onclick="showFour()" style="cursor: pointer;"><img src="img/shop/poster/four.jpg"></button></span>
+        <span><button onclick="showFourteen()" style="cursor: pointer;"><img src="img/shop/poster/fourteen.jpg"></button></span>
+        <span><button onclick="showNine()" style="cursor: pointer;"><img src="img/shop/poster/nine.jpg"></button></span>
+        <span><button onclick="showNinteen()" style="cursor: pointer;"><img src="img/shop/poster/ninteen.jpg"></button></span>
+        <span><button onclick="showOne()" style="cursor: pointer;"><img src="img/shop/poster/one.jpg"></button></span><br>
+        <span><button onclick="showSeven()" style="cursor: pointer;"><img src="img/shop/poster/seven.jpg"></button></span>
+        <span><button onclick="showSeventeen()" style="cursor: pointer;"><img src="img/shop/poster/seventeen.jpg"></button></span>        
+        <span><button onclick="showSix()" style="cursor: pointer;"><img src="img/shop/poster/six.jpg"></button></span>
+        <span><button onclick="showSixteen()" style="cursor: pointer;"><img src="img/shop/poster/sixteen.jpg"></button></span>
+        <span><button onclick="showTen()" style="cursor: pointer;"><img src="img/shop/poster/ten.jpg"></button></span><br>
+        <span><button onclick="showThirteen()" style="cursor: pointer;"><img src="img/shop/poster/thirteen.jpg"></button></span>
+        <span><button onclick="showThirty()" style="cursor: pointer;"><img src="img/shop/poster/thirty.jpg"></button></span>
+        <span><button onclick="showThirtyfive()" style="cursor: pointer;"><img src="img/shop/poster/thirtyfive.jpg"></button></span>
+        <span><button onclick="showThirtyfour()" style="cursor: pointer;"><img src="img/shop/poster/thirtyfour.jpg"></button></span>
+        <span><button onclick="showThirtyone()" style="cursor: pointer;"><img src="img/shop/poster/thirtyone.jpg"></button></span><br>
+        <span><button onclick="showThirtythree()" style="cursor: pointer;"><img src="img/shop/poster/thirtythree.jpg"></button></span>
+        <span><button onclick="showThirtyTwo()" style="cursor: pointer;"><img src="img/shop/poster/thirtytwo.jpg"></button></span>
+        <span><button onclick="showTwelve()" style="cursor: pointer;"><img src="img/shop/poster/twelve.jpg"></button></span>
+        <span><button onclick="showThree()" style="cursor: pointer;"><img src="img/shop/poster/three.jpg"></button></span>
+        <span><button onclick="showTwenty()" style="cursor: pointer;"><img src="img/shop/poster/twenty.jpg"></button></span><br>
+        <span><button onclick="showTwentyeight()" style="cursor: pointer;"><img src="img/shop/poster/twentyeight.jpg"></button></span>
+        <span><button onclick="showTwentyfive()" style="cursor: pointer;"><img src="img/shop/poster/twentyfive.jpg"></button></span>
+        <span><button onclick="showTwentyfour()" style="cursor: pointer;"><img src="img/shop/poster/twentyfour.jpg"></button></span>
+        <span><button onclick="showTwentynine()" style="cursor: pointer;"><img src="img/shop/poster/twentynine.jpg"></button></span>
+        <span><button onclick="showTwentyone()" style="cursor: pointer;"><img src="img/shop/poster/twentyone.jpg"></button></span><br>
+        <span><button onclick="showTwentyseven()" style="cursor: pointer;"><img src="img/shop/poster/twentyseven.jpg"></button></span>
+        <span><button onclick="showTwentysix()" style="cursor: pointer;"><img src="img/shop/poster/twentysix.jpg"></button></span>
+        <span><button onclick="showTwentythree()" style="cursor: pointer;"><img src="img/shop/poster/twentythree.jpg"></button></span>
+        <span><button onclick="showTwentytwo()" style="cursor: pointer;"><img src="img/shop/poster/twentytwo.jpg"></button></span>
+        <span><button onclick="showTwo()" style="cursor: pointer;"><img src="img/shop/poster/two.jpg"></button></span>
+    </div>
+
+    <div id="showPosters" style="border: 2px solid black">
+
+    </div>
+
+    <div class="facemasks" id="facemasks">
+
+        <img src="img/shop/blood.png">
+        <div>
+            <span>Blood</span>
+            <a href="#">Purchase</a>
+        </div>
+        
+
+        <img src="img/shop/bluemill.png">
+        <div>
+            <span>Bluemill</span>
+            <a href="#">Purchase</a>
+        </div>
+
+        <img src="img/shop/bmill.png">
+        <div>
+            <span>Bmill</span>
+            <a href="#">Purchase</a>
+        </div>
+
+        <img src="img/shop/g.png">
+        <div>
+            <span>G</span>
+            <a href="#">Purchase</a>
+        </div>
+
+        <img src="img/shop/pearl.png">
+        <div>
+            <span>Pearl</span>
+            <a href="#">Purchase</a>
+        </div>
+
+        <img src="img/shop/redmill.png">
+        <div>
+            <span>Redmill</span>
+            <a href="#">Purchase</a>
+        </div>
+
+        <img src="img/shop/rmill.png">
+        <div>
+            <span>Rmill</span>
+            <a href="#">Purchase</a>
+        </div>
+
+        <img src="img/shop/smile.png">
+        <div>
+            <span>Smile</span>
+            <a href="#">Purchase</a>
+        </div>
+
+        <img src="img/shop/vodun.png">
+        <div>
+            <span>Vodun</span>
+            <a href="#">Purchase</a>
+        </div>
+
+    </div>
+
+<script src="floorfive.js"></script>
+</body>
+</html>

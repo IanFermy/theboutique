@@ -16,7 +16,7 @@ var pokeCenter = document.getElementById('pokeCenter')
 var math = document.getElementById('math')
 var sugar = document.getElementById('sugar')
 var soon = document.getElementById('soon')
-var suck = document.getElementById('suck')
+var suck = document.getElementById('suck') 
 var tomorrow = document.getElementById('tomorrow')
 var dream = document.getElementById('dream')
 var  cell = document.getElementById('cell')
@@ -34,7 +34,11 @@ var dodgeball = document.getElementById('dodgeball');
 var fork = document.getElementById('fork');
 var knife = document.getElementById('knife');
 var bed = document.getElementById("bed");
-var kool = document.getElementById('kool')
+var kool = document.getElementById('kool');
+var meal = document.getElementById('meal');
+var speak = document.getElementById('speak');
+var going = document.getElementById('going');
+var mouth = document.getElementById('mouth');
 
 function showSea() {
     removeSex()
@@ -42,734 +46,197 @@ function showSea() {
 }
 
 function revealOj() {
-    removeSex()
     removeSea()
     oj.style.display="block"
 }
 
 function revealFuck() {
-    removeSex()
-    removeSea()
     removeOj()
     fuck.style.display="block"
 }
 
 function revealSpring() {
-    removeSex()
-    removeSea()
-    removeOj()
     removeFuck()
     spring.style.display = "block"
 }
 
 function revealMean() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
     removeSpring()
     mean.style.display="block"
 }
 
 function revealMark() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
     removeMean()
     mark.style.display = "block"
 }
 
 function revealFert() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
     removeMark()
     fert.style.display = "block"
 }
 
 function revealLaugh() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
     removeFert()
     laugh.style.display="block"
 }
 
 function revealLightOne() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
     removeLaugh()
     lightOne.style.display="block"
 }
 
 function revealBeard() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
     removeLight()
     beard.style.display="block"
 }
 
 function revealLife() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
     removeBeard()
     life.style.display="block"
 }
 
 function revealPokeCenter() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
     removeLife()
     pokeCenter.style.display="block"
 }
 
 function revealMath() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
     removePokeCenter()
     math.style.display="block"
 }
 
 function revealSugar() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
     removeMath()
     sugar.style.display="block"
 }
 
 function revealSoon() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
     removeSugar()
     soon.style.display="block"
 }
 
 function revealSuck() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
     removeSoon()
     suck.style.display="block"
 }
 
 function revealTomorrow() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
     removeSuck()
     tomorrow.style.display="block"
 }
 
 function revealDream() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
     removeTomorrow()
     dream.style.display="block"
 }
 
 function revealoneDay() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
     removeDream()
     oneDay.style.display="block"
 }
 
 function revealCell() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
     removeOneDay()
     cell.style.display="block"
 }
 
 function revealWingsuit() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
     removeCell()
     wingsuit.style.display="block"
 }
 
 function revealSuit() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
     removeWingsuit()
     suit.style.display="block"
 }
 
 function revealRiver() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
     removeSuit()
     river.style.display="block"
 }
 
 function revealDice() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
-    removeSuit()
     removeRiver()
     dice.style.display="block"
 }
 
 function revealHole() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
-    removeSuit()
-    removeRiver()
     removeGame()
     hole.style.display="block"
 } 
 
 function revealGame(){
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
-    removeSuit()
-    removeRiver()
-    removeHole()
     removeDice()
     game.style.display="block"
 }
 
 function revealCurb() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
-    removeSuit()
-    removeRiver()
-    removeDice()
-    removeGame()
     removeHole()
     curb.style.display="block"
 }
 
 function revealClown(){
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
-    removeSuit()
-    removeRiver()
-    removeDice()
-    removeGame()
-    removeHole();
     removeCurb();
     clown.style.display='block';
 }
 
 function revealCoin() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
-    removeSuit()
-    removeRiver()
-    removeDice()
-    removeGame()
-    removeHole();
-    removeCurb();
     removeClown();
     coin.style.display = "block";
 }
 
 function revealDodgeball(){
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
-    removeSuit()
-    removeRiver()
-    removeDice()
-    removeGame()
-    removeHole();
-    removeCurb();
-    removeClown();
     removeCoin();
     dodgeball.style.display = "block";
 }
 
 function revealFork() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
-    removeSuit()
-    removeRiver()
-    removeDice()
-    removeGame()
-    removeHole();
-    removeCurb();
-    removeClown();
-    removeCoin();
     removeDodgeball();
     fork.style.display = "block";
 }
 
 function revealKnife() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
-    removeSuit()
-    removeRiver()
-    removeDice()
-    removeGame()
-    removeHole();
-    removeCurb();
-    removeClown();
-    removeCoin();
-    removeDodgeball();
     removeFork();
     knife.style.display = "block";
 }
 
 function revealBed() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
-    removeSuit()
-    removeRiver()
-    removeDice()
-    removeGame()
-    removeHole();
-    removeCurb();
-    removeClown();
-    removeCoin();
-    removeDodgeball();
-    removeFork();
     removeKnife();
     bed.style.display = "block";
 }
 
 function revealKool() {
-    removeSex()
-    removeSea()
-    removeOj()
-    removeFuck()
-    removeSpring()
-    removeMean()
-    removeMark()
-    removeFert()
-    removeLaugh()
-    removeLight()
-    removeBeard()
-    removeLife()
-    removePokeCenter()
-    removeMath()
-    removeSugar()
-    removeSoon()
-    removeSuck()
-    removeTomorrow()
-    removeDream()
-    removeOneDay()
-    removeCell()
-    removeWingsuit()
-    removeSuit()
-    removeRiver()
-    removeDice()
-    removeGame()
-    removeHole();
-    removeCurb();
-    removeClown();
-    removeCoin();
-    removeDodgeball();
-    removeFork();
-    removeKnife();
     removeBed();
     kool.style.display = "block";
 }
 
+function revealMeal() {
+    removeKool();
+    meal.style.display="block";
+}
+
+function revealSpeak() {
+    removeMeal();
+    speak.style.display="block";
+}
+
+function revealGoing() {
+    speak.style.display="none";
+    going.style.display="block";
+}
+
+function revealMouth() {
+    going.style.display="none";
+    mouth.style.display="block";
+}
+
+function removeMeal() {
+    meal.style.display="none";
+}
+
 function removeKool() {
-    sugar.style.display = "none"
-;}
+    kool.style.display = "none"
+}
 
 function removeBed() {
     bed.style.display = "none";
