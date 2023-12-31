@@ -42,6 +42,15 @@ var nomadBlog = document.getElementById('nomad')
 var batmanBlog = document.getElementById('batman')
 var unabomberBlog = document.getElementById('unabomber');
 var bladerunnerBlog = document.getElementById('bladerunner');
+var blackBlog = document.getElementById('black');
+
+function revealBlack() {
+    blackBlog.style.display = "block";
+}
+
+function blackClose() {
+    blackBlog.style.display = "none";
+}
 
 function revealBladerunner() {
     bladerunnerBlog.style.display = 'block';

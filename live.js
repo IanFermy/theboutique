@@ -7,6 +7,19 @@ var republicans = document.getElementById("republicans");
 var republicansTwo = document.getElementById('republicansTwo');
 var changingRoles = document.getElementById('changingRoles');
 var social = document.getElementById('social');
+var resist = document.getElementById('resist');
+
+function revealResist() {
+    closeSocial();
+    closeMoney();
+    closeNick();
+    closeOwnNothing();
+    closeWoke();
+    closeRepublicans();
+    closeRepublicansTwo();
+    closeChangingRoles();
+    resist.style.display = "block";
+}
 
 function revealSocial(){
     closeMoney();

@@ -9,7 +9,7 @@
             height: 350px;
             position:absolute;
             left: 50.33%;
-            bottom: 100px;
+            bottom: -90px;
         }
 
         .posters {
@@ -40,8 +40,8 @@
         }
 
         .facemasks div{
-            position: relative;
-            left: 220px;
+            position: absolute;
+            left:65%;
         }
 
         a {
@@ -57,6 +57,18 @@
 
         ul{
             list-style: none;
+        }
+
+        .posterPurchase {
+            position: absolute;
+            bottom: 160px;
+            color: gold;
+            border: 1px solid black;
+            padding: 1px;
+            border-radius: 2px;
+            background-color: purple;
+            right: 5px;
+            display: none;
         }
 
     </style>
@@ -113,15 +125,17 @@
         <span><button onclick="showTwo()" style="cursor: pointer;"><img src="img/shop/poster/two.jpg"></button></span>
     </div>
 
-    <div id="showPosters" style="border: 2px solid black">
-
+    <div id="showPosters">
+        <div>
+        <p id="howto"><a  id="posterPurchase" class="posterPurchase" href="#">Purchase</a></p>
+        </div>
     </div>
 
     <div class="facemasks" id="facemasks">
 
         <img src="img/shop/blood.png">
         <div>
-            <span>Blood</span>
+            <span>Blood</span> 
             <a href="#">Purchase</a>
         </div>
         
@@ -175,6 +189,9 @@
         </div>
 
     </div>
+
+  
+    
 
 <script src="floorfive.js"></script>
 </body>
