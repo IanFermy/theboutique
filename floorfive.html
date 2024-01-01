@@ -36,6 +36,26 @@
             }
         }
 
+        @media only screen and (orientation: portrait) {
+                .facemasks {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 0;
+                }
+
+                .facemasks img {
+                    height: 40%;
+                    width: 40%;
+                }
+
+                .facemasks span,
+                a {
+                    bottom: 10px;
+                    right: 0;
+                }
+            }
+
         #showPosters {
             width: 40%;
             height: 350px;
@@ -72,7 +92,7 @@
         }
 
         .facemasks div{
-            position: absolute;
+            position: relative;
             left:65%;
         }
 
@@ -110,6 +130,7 @@
     <title>AFB Shop</title>
 </head>
 <body>
+    <p>best viewed in landscape</p>
     <p>Items:</p>
 
     <ul>
