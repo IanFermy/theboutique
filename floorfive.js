@@ -1,11 +1,7 @@
 var facemasks = document.getElementById('facemasks');
 var posters = document.getElementById("posters");
 var posterArea = document.getElementById('showPosters');
-var posterBuy = document.getElementById("posterPurchase");;
-
-function showNone() {
-    posterArea.style.display="none";
-}
+var posterBuy = document.getElementById("posterPurchase");
 
 function showButton() {
     posterBuy.style.display = "block";
@@ -200,7 +196,7 @@ function showNineteen() {
     posterArea.style.height= "100%";
     posterArea.style.backgroundSize="contain";
     posterArea.style.backgroundRepeat = "no-repeat";
-    posterArea.style.backgroundImage = 'url("img/shop/poster/nineteen.jpg")';
+    posterArea.style.backgroundImage = 'url("img/shop/poster/ninteen.jpg")';
     posterArea.style.backgroundPosition = "center";
 }
 
@@ -324,7 +320,7 @@ function showThirtyone() {
     posterArea.style.backgroundPosition = "center";
 }
 
-function showThirtytwo() {
+function showThirtyTwo() {
     showButton();
     posterArea.style.width= "400px";
     posterArea.style.height= "100%";
@@ -367,6 +363,7 @@ function showThirtyfive() {
 function revealFacemasks() {
     posters.style.display= "none";
     facemasks.style.display = "block";
+    posterArea.style.display = "none";
 }
 
 function revealPosters() {
